@@ -16,7 +16,7 @@
           <div class="flip-card2">
             <div class="flip-card-inner2">
               <div class="flip-card-front2">
-                <img src="/layouts/erudapyon.JPG">
+                <!-- <img src="/layouts/erudapyon.JPG"> -->
                 <div class="wd">
                     Erudapyon 
                     <button type="button" class="btn btn-outline-light rounded-pill" style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; padding: 0 10px; font-size: medium;">
