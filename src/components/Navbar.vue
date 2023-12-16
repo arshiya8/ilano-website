@@ -60,45 +60,59 @@ ul li:hover::after {
     </template>
     <template #end >
       <ul>
+        <router-link :to="{ name: 'work' }">
         <li @click="underline(0)">Work</li>
+      </router-link>
+      <router-link :to="{ name: 'play' }">
         <li @click="underline(1)">PLAY</li>
+        </router-link>
         <router-link :to="{ name: 'about' }">
           <li @click="underline(2)">ABOUT</li>
         </router-link>
-        <li @click="underline(3)">CONTACT</li>
+        <router-link :to="{ name: 'contact' }">
+        <li @click="underline(3)">CONTACT</li></router-link>
       </ul>
     </template>
   </Menubar>
 </template>
-<script setup>
+<script >
 import { ref, onMounted } from 'vue';
+import { useStore } from 'vuex';
 
-const activeLink = ref(null);
+export default {
+  setup() {
+    const store = useStore();
+    const activeLink = ref(null);
 
-onMounted(() => {
-  // Retrieve the active link from localStorage on component mount
-  activeLink.value = parseInt(localStorage.getItem('activeLink')) || null;
+    onMounted(() => {
+      // Retrieve the active link from the store on component mount
+      activeLink.value = store.state.activeLink;
 
-  // Apply the "active" class to the corresponding li element
-  if (activeLink.value !== null && activeLink.value !== -1) {
-    const lis = document.querySelectorAll('ul li');
-    const clickedLi = lis[activeLink.value];
-    clickedLi.classList.add('active');
-  }
-});
+      // Apply the "active" class to the corresponding li element
+      if (activeLink.value !== null && activeLink.value !== -1) {
+        const lis = document.querySelectorAll('ul li');
+        const clickedLi = lis[activeLink.value];
+        clickedLi.classList.add('active');
+      }
+    });
 
-function underline(index) {
-  // Reset the styles for all li elements
-  const lis = document.querySelectorAll('ul li');
-  lis.forEach(li => li.classList.remove('active'));
+    function underline(index) {
+      // Reset the styles for all li elements
+      const lis = document.querySelectorAll('ul li');
+      lis.forEach((li) => li.classList.remove('active'));
 
-  // Apply the styles only to the clicked li element (except for index -1)
-  if (index !== -1) {
-    const clickedLi = lis[index];
-    clickedLi.classList.add('active');
-  }
+      // Apply the styles only to the clicked li element (except for index -1)
+      if (index !== -1) {
+        const clickedLi = lis[index];
+        clickedLi.classList.add('active');
+      }
 
-  localStorage.setItem('activeLink', index);
-  activeLink.value = index;
-}
+      // Update the Vuex store state
+      store.commit('setActiveLink', index);
+      activeLink.value = index;
+    }
+
+    return { activeLink, underline };
+  },
+};
 </script>

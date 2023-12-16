@@ -1,6 +1,7 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router';
+import store from './store';
 import gsap from "gsap";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -110,16 +111,18 @@ import 'primevue/resources/themes/md-light-indigo/theme.css';
 import 'primevue/resources/primevue.min.css';
 import 'primeicons/primeicons.css';
 import 'primeflex/primeflex.css'
+import '/node_modules/primeflex/primeflex.css';
 
 // bootstrap things
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 
 const app = createApp(App)
 
 app.use(router);
-
+app.use(store);
 app.use(PrimeVue, { ripple: true });
 app.use(ToastService);
 app.use(DialogService);
