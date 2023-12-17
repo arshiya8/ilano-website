@@ -42,7 +42,7 @@
         <div class="col" style="display: flex;
     justify-content: center;
     align-items: center;">
-            <!-- <img src="/layouts/contact.mp4" style="width: 480px; height: 265px; border-radius: 41px; " /> -->
+            <img src="/layouts/contact.gif" style="width: 480px; height: 265px; border-radius: 41px; " />
         </div>
     </div>
 
