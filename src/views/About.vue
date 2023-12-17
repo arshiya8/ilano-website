@@ -4,7 +4,7 @@
 
   <div class="grid">
     <div class="col">
-      <img src="/layouts/About.jpeg" />
+      <img src="/layouts/About.png" />
     </div>
     <div class="col">
       <div class="container">
@@ -20,22 +20,24 @@ font-style: normal; font-size: 2rem; text-align: start;">
 
 
       <div style="font-family: 'Montserrat', sans-serif;">
-       <strong>Danielle (Dani, David, Ilano) is an Advertising creative <br> who specialises in copywriting. </strong>
-       Sensationally quiet, <br> she puts her voice into her work and hopes for the best. <br> Kidding, <span style="font-size:xx-small;">not really.</span>
+        <strong>Danielle (Dani, David, Ilano) is an Advertising creative <br> who specialises in copywriting. </strong>
+        Sensationally quiet, <br> she puts her voice into her work and hopes for the best. <br> Kidding, <span
+          style="font-size:xx-small;">not really.</span>
       </div>
 
       <div style="font-family: 'Montserrat', sans-serif; margin-top: 20px;">
-       A <strong>Bright Spark</strong> who flips from hobby to hobby, she's <br> gained *a level* of credibility in the field of illustrations, <br> 
-       UI/UX, video editing and creative writing. 
+        A <strong>Bright Spark</strong> who flips from hobby to hobby, she's <br> gained *a level* of credibility in the
+        field of illustrations, <br>
+        UI/UX, video editing and creative writing.
       </div>
 
     </div>
   </div>
 
-  <div class="footer3"> 
+  <div class="footer3">
     <div class="txt3">
-    2023 Danielle Ilano. All Rights Reserved
-  </div>
+      2023 Danielle Ilano. All Rights Reserved
+    </div>
   </div>
 </template>
 

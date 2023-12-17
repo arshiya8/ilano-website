@@ -72,7 +72,7 @@ body {
   /* Center items vertically */
   background-color: rgb(39, 38, 38);
   color: white;
-  text-shadow: 0px 0px 1px rgb(217, 206, 206);
+  text-shadow: 3px 3px 1.5px  rgb(14, 13, 13);
 }
 
 /* Style the front side (fallback if image is missing) */

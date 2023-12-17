@@ -17,7 +17,7 @@
                         <div class="flip-card1 px-0 py0">
                             <div class="flip-card-inner1" style="border-top-right-radius: 0; border-bottom-right-radius: 0; border-bottom-left-radius: 0;">
                                 <div class="flip-card-front1" style="border-top-right-radius: 0; border-bottom-right-radius: 0; border-bottom-left-radius: 0;">
-                                    <img src="/layouts/w1.png">
+                                    <img src="/layouts/w1.png" style="border-top-right-radius: 0; border-bottom-right-radius: 0; border-bottom-left-radius: 0;" >
                                 </div>
                                 <div class="flip-card-back1" style="border-top-right-radius: 0; border-bottom-right-radius: 0; border-bottom-left-radius: 0;" >
                                     <h1>John Doe</h1>
@@ -28,10 +28,10 @@
                         </div>
                     </div>
                     <div class="flex align-items-center justify-content-center px-0 py-0 sm:col-12 md:col-6 lg:col-6">
-                        <div class="flip-card1">
+                        <div class="flip-card1" >
                             <div class="flip-card-inner1" style="border-top-left-radius: 0; border-bottom-right-radius: 0; border-bottom-left-radius: 0;">
                                 <div class="flip-card-front1" style="border-top-left-radius: 0; border-bottom-right-radius: 0; border-bottom-left-radius: 0;">
-                                    <img src="/layouts/w2.png">
+                                    <img src="/layouts/w2.png" style="border-top-left-radius: 0; border-bottom-right-radius: 0; border-bottom-left-radius: 0;">
                                 </div>
                                 <div class="flip-card-back1" style="border-top-left-radius: 0; border-bottom-right-radius: 0; border-bottom-left-radius: 0;">
                                     <h1>John Doe</h1>
@@ -42,10 +42,10 @@
                         </div>
                     </div>
                     <div class="flex align-items-center justify-content-center px-0 py-0 sm:col-12 md:col-6 lg:col-6">
-                        <div class="flip-card1">
+                        <div class="flip-card1" >
                             <div class="flip-card-inner1" style="border-top-right-radius: 0; border-bottom-right-radius: 0; border-top-left-radius: 0;">
                                 <div class="flip-card-front1" style="border-top-right-radius: 0; border-bottom-right-radius: 0; border-top-left-radius: 0;">
-                                    <img src="/layouts/w3.png">
+                                    <img src="/layouts/w3.png" style="border-top-right-radius: 0; border-bottom-right-radius: 0; border-top-left-radius: 0;">
                                 </div>
                                 <div class="flip-card-back1" style="border-top-right-radius: 0; border-bottom-right-radius: 0; border-top-left-radius: 0;">
                                     <h1>John Doe</h1>
@@ -56,10 +56,10 @@
                         </div>
                     </div>
                     <div class="flex align-items-center justify-content-center px-0 py-0 sm:col-12 md:col-6 lg:col-6">
-                        <div class="flip-card1">
+                        <div class="flip-card1" >
                             <div class="flip-card-inner1" style="border-top-left-radius: 0; border-top-right-radius: 0; border-bottom-left-radius: 0;">
                                 <div class="flip-card-front1" style="border-top-left-radius: 0; border-top-right-radius: 0; border-bottom-left-radius: 0;">
-                                    <img src="/layouts/w4.png">
+                                    <img src="/layouts/w4.png" style="border-top-left-radius: 0; border-top-right-radius: 0; border-bottom-left-radius: 0;">
                                 </div>
                                 <div class="flip-card-back1" style="border-top-left-radius: 0; border-top-right-radius: 0; border-bottom-left-radius: 0;">
                                     <h1>John Doe</h1>
@@ -106,8 +106,8 @@ body {
     border: none;
     /* Remove this if you don't want the 3D effect */
     border-radius: 15px;
-    width: 732px;
-    height: 320px;
+    width: 701px;
+    height: 280px;
     perspective: 1000px;
     background-color: transparent;
     border: none;
@@ -170,8 +170,9 @@ body {
 }
 
 .flip-card1 img {
-    max-width: 100%;
-    max-height: 100%;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
 }
 
 .footer1 {
