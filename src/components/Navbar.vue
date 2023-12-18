@@ -61,7 +61,7 @@ ul li:hover::after {
     <template #end >
       <ul>
         <router-link :to="{ name: 'work' }">
-        <li @click="underline(0)">Work</li>
+        <li @click="underline(0)">Works</li>
       </router-link>
       <router-link :to="{ name: 'play' }">
         <li @click="underline(1)">PLAY</li>
