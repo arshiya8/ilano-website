@@ -55,7 +55,8 @@
   
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Mohave:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Mohave:wght@700&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://use.typekit.net/mvw8cpm.css');
 
 body {
     background-color: #121212;
