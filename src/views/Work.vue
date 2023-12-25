@@ -24,7 +24,7 @@
                                 </div>
                                 <div class="flip-card-back1"
                                     style="border-top-right-radius: 0; border-bottom-right-radius: 0; border-bottom-left-radius: 0;">
-                                   <router-link :to="{name: 'eBay'}"> <Button label="see more" class="rounded-pill"></Button></router-link>
+                                   <router-link :to="{name: 'eBay'}"><Button label="see more" class="rounded-pill"></Button></router-link>
                                 </div>
                             </div>
                         </div>
@@ -40,7 +40,7 @@
                                 </div>
                                 <div class="flip-card-back1"
                                     style="border-top-left-radius: 0; border-bottom-right-radius: 0; border-bottom-left-radius: 0;">
-                                    <router-link :to="{name: 'gym'}"> <Button label="see more" class="rounded-pill"></Button></router-link>
+                                    <router-link :to="{name: 'gym'}"><Button label="see more" class="rounded-pill"></Button></router-link>
                                 </div>
                             </div>
                         </div>
@@ -56,7 +56,7 @@
                                 </div>
                                 <div class="flip-card-back1"
                                     style="border-top-right-radius: 0; border-bottom-right-radius: 0; border-top-left-radius: 0;">
-                                    <router-link :to="{name: 'heineken'}"> <Button label="see more" class="rounded-pill"></Button></router-link>
+                                    <router-link :to="{name: 'heineken'}"><Button label="see more" class="rounded-pill"></Button></router-link>
                                 </div>
                             </div>
                         </div>
@@ -96,7 +96,7 @@ import Navbar from '../components/Navbar.vue';
 @import url('https://fonts.googleapis.com/css2?family=Mohave:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
 @import url('https://fonts.cdnfonts.com/css/andale-mono');
-@import url('https://use.typekit.net/mvw8cpm.css');
+
 
 
 body {
@@ -123,7 +123,7 @@ body {
     perspective: 1000px;
     background-color: transparent;
     border: none;
-    font-family: "Dark Crow Italic PERSONAL USE";
+
 }
 
 /* This container is needed to position the front and back side */
@@ -134,7 +134,7 @@ body {
     text-align: center;
     transition: transform 0.8s;
     transform-style: preserve-3d;
-
+    
     border-radius: 15px;
 
 }

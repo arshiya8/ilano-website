@@ -43,7 +43,6 @@ body {
   text-align: center;
   transition: transform 0.8s;
   transform-style: preserve-3d;
-
   border-radius: 15px;
 
 }
@@ -62,7 +61,7 @@ body {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   border-radius: 15px;
-
+ 
   border: 1px solid rgba(255, 255, 255, 0.255);
   display: flex;
   /* Add display: flex */
