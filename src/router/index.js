@@ -32,6 +32,26 @@ const router = createRouter({
       name: 'contact',
       component: () => import('../views/Contact.vue')
     },
+    {
+      path: '/eBay',
+      name: 'eBay',
+      component: () => import('../views/eBay.vue')
+    },
+    {
+      path: '/gym',
+      name: 'gym',
+      component: () => import('../views/Gym.vue')
+    },
+    {
+      path: '/heineken',
+      name: 'heineken',
+      component: () => import('../views/Heineken.vue')
+    },
+    {
+      path: '/escape',
+      name: 'escape',
+      component: () => import('../views/Escape.vue')
+    },
   ]
 })
 

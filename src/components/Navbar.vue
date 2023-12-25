@@ -8,7 +8,7 @@ body {
 ul li {
   list-style: none;
   display: inline;
-  padding-left: 15px;
+  padding-left: 25px;
   position: relative;
   color: white;
 
@@ -16,7 +16,7 @@ ul li {
 div a img {
   width: 45.54px;
   height: 45.32px;
-  vertical-align: middle;
+  vertical-align: baseline;
   padding-left: 5px;
 }
 
@@ -31,15 +31,15 @@ ul li::after {
   width: 0;
   background: white;
   position: absolute;
-  left: 15px;
+  left: 23px;
   bottom: 0;
   transition: 0.5s;
 }
 ul li:hover::after {
-    width: 80%;
+    width: 75%;
   }
   ul li.active::after {
-    width: 80%;
+    width: 75%;
   }
  
 </style>
@@ -51,7 +51,7 @@ ul li:hover::after {
     font-size: xx-large; margin: 0px 15px;">
     <template #start>
         <div >
-          <router-link :to="{name: 'home'}"> <span style="vertical-align: middle; color: white;" @click="underline(-1)">DANIELLE ILANO</span></router-link>
+          <router-link :to="{name: 'home'}"> <span style="vertical-align: super; color: white;" @click="underline(-1)">DANIELLE ILANO</span></router-link>
           <a href="https://www.instagram.com/lostinhelle?igshid=OGQ5ZDc2ODk2ZA=="><img src="/layouts/Instagram.png" /> </a>
           <a href="https://www.behance.net/danielleilano"><img src="/layouts/Behance.png" /></a>
           <a href="https://www.linkedin.com/in/danielle-ilano-8b3482226/"><img src="/layouts/Linkedin.png" /></a>
