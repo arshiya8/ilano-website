@@ -114,27 +114,19 @@ body {
   <Navbar />
 
   <div class="container-fluid">
-    <div class="grid align-items-center justify-content-center">
-      <div class="grid">
-        <div class="w-full card-container align-items-center justify-content-center">
-          <div class="flex align-items-center justify-content-center"
-            style="margin-top: 80px; margin-bottom: 30px; font-family: 'Mohave', sans-serif; font-size: 4rem;">
-            QUIET OFFLINE, <br />
-            BABBLES ONLINE,<br />
-            <div style="font-family: 'hey-eloise', sans-serif;
+    <div class="text-center text-white"
+      style="margin-top: 80px; margin-bottom: 30px; font-family: 'Mohave', sans-serif; font-size: 4rem;">
+      QUIET OFFLINE, <br />
+      BABBLES ONLINE,<br />
+      <div style="font-family: 'hey-eloise', sans-serif;
 font-weight: 400;
 font-style: normal; font-size: 4rem;">
-              RHYMES TO DESIGN.
-            </div>
-          </div>
-        </div>
-
-
-        <div class="flex align-items-center justify-content-center" style="font-family: 'Courier New', Courier, monospace; 
-        margin-bottom: 120px;">
-          Hi, I'm Danielle :)
-        </div>
+        RHYMES TO DESIGN.
       </div>
+    </div>
+
+    <div class="text-center text-white" style="font-family: 'Courier New', Courier, monospace; margin-bottom: 120px;">
+      Hi, I'm Danielle :)
     </div>
   </div>
 
