@@ -1,118 +1,120 @@
+<script setup>
+import { ref, computed } from "vue";
+import { useRoute, useRouter } from "vue-router";
+
+const router = useRouter();
+const route = useRoute();
+
+const logoUrl = computed(() => {
+  return `layouts/webLogo.png`;
+});
+
+// Menu
+const items = ref([
+  {
+    label: "Works",
+    routeName: "work",
+  },
+  {
+    label: "Play",
+    routeName: "play",
+  },
+  {
+    label: "About",
+    routeName: "about",
+  },
+  {
+    label: "Contact",
+    routeName: "contact",
+  },
+]);
+</script>
+
+<template>
+  <div class="grid align-items-center justify-content-center">
+    <div class="col-12 md:12 lg:10">
+      <div class="d-flex justify-content-between align-items-center mb-3">
+        <!-- Logo on the left -->
+        <div class="d-flex align-items-center">
+          <router-link :to="{name: 'home'}" ><img alt="logo" :src="logoUrl" height="60" /></router-link>
+          <!-- Instagram -->
+          <a href="https://www.instagram.com/lostinhelle?igshid=OGQ5ZDc2ODk2ZA=="><img src="/layouts/Instagram.png" /></a>
+          <!-- Linkedin -->
+          <a href="https://www.linkedin.com/in/danielle-ilano-8b3482226/"><img src="/layouts/Linkedin.png" /></a>
+        </div>
+        
+        <!-- Menu items on the right -->
+        <Menubar :model="items" class="border-none" style="font-family: 'hey-eloise', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: xx-large; margin: 0px 15px;">
+          <template #item="{ label, item, props, root, hasSubmenu }" class="p-menuitem-active text-white">
+            <router-link v-if="item.routeName" v-slot="routerProps" :to="{ name: item.routeName }" custom :exact="true">
+              <a :href="routerProps.href" v-bind="props.action">
+                <span v-bind="props.label">{{ label }}</span>
+              </a>
+            </router-link>
+            <a v-else :href="item.url" :target="item.target" v-bind="props.action">
+              <span v-bind="props.label">{{ label }}</span>
+              <span :class="[
+                hasSubmenu &&
+                (root ? 'pi pi-fw pi-angle-down' : 'pi pi-fw pi-angle-right'),
+              ]" v-bind="props.submenuicon" />
+            </a>
+          </template>
+        </Menubar>
+      </div>
+    </div>
+  </div>
+</template>
+
 <style>
 @import url('https://use.typekit.net/mvw8cpm.css');
 
 body {
   background-color: #121212;
-
-}
-ul li {
-  list-style: none;
-  display: inline;
-  padding-left: 25px;
-  position: relative;
   color: white;
-
 }
-div a img {
+
+a {
+  text-decoration: none !important;
+}
+
+span.p-menuitem-text {
+  color: white;
+}
+
+span.p-menuitem-text:hover {
+  border-bottom: 2px solid white; /* White underline on hover */
+}
+
+ul#pv_id_1.p-menubar-root-list {
+  background-color: #121212;
+  color: white;
+  width: auto !important; /* Set submenu width to auto */
+  max-width: none !important; /* Allow submenu to expand */
+  white-space: nowrap; /* Prevent submenu item from wrapping */
+  padding-left: 0; /* Remove default padding */
+  margin: 0;
+}
+
+a.p-menubar-button {
+  color: white;
+}
+
+a img {
   width: 45.54px;
   height: 45.32px;
   vertical-align: baseline;
-  padding-left: 5px;
 }
 
-div a {
-  text-decoration: none;
+/* Adjust margin between logos and images */
+.d-flex.align-items-center a:not(:last-child) {
+  margin-right: 15px;
 }
 
-
-ul li::after {
-  content: '';
-  height: 2px;
-  width: 0;
-  background: white;
-  position: absolute;
-  left: 23px;
-  bottom: 0;
-  transition: 0.5s;
+/* Adjust margin between last image and first text */
+.d-flex.align-items-center .p-menubar-root-list {
+  margin-left: 15px;
 }
-ul li:hover::after {
-    width: 75%;
-  }
-  ul li.active::after {
-    width: 75%;
-  }
- 
 </style>
-
-<template>
-  <Menubar style="border: none; font-family: 'hey-eloise', sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: xx-large; margin: 0px 15px;">
-    <template #start>
-        <div >
-          <router-link :to="{name: 'home'}"> <span style="vertical-align: super; color: white;" @click="underline(-1)">DANIELLE ILANO</span></router-link>
-          <a href="https://www.instagram.com/lostinhelle?igshid=OGQ5ZDc2ODk2ZA=="><img src="/layouts/Instagram.png" /> </a>
-          <a href="https://www.behance.net/danielleilano"><img src="/layouts/Behance.png" /></a>
-          <a href="https://www.linkedin.com/in/danielle-ilano-8b3482226/"><img src="/layouts/Linkedin.png" /></a>
-        </div>
-        
-    </template>
-    <template #end >
-      <ul>
-        <router-link :to="{ name: 'work' }">
-        <li @click="underline(0)">Works</li>
-      </router-link>
-      <router-link :to="{ name: 'play' }">
-        <li @click="underline(1)">PLAY</li>
-        </router-link>
-        <router-link :to="{ name: 'about' }">
-          <li @click="underline(2)">ABOUT</li>
-        </router-link>
-        <router-link :to="{ name: 'contact' }">
-        <li @click="underline(3)">CONTACT</li></router-link>
-      </ul>
-    </template>
-  </Menubar>
-</template>
-<script >
-import { ref, onMounted } from 'vue';
-import { useStore } from 'vuex';
-
-export default {
-  setup() {
-    const store = useStore();
-    const activeLink = ref(null);
-
-    onMounted(() => {
-      // Retrieve the active link from the store on component mount
-      activeLink.value = store.state.activeLink;
-
-      // Apply the "active" class to the corresponding li element
-      if (activeLink.value !== null && activeLink.value !== -1) {
-        const lis = document.querySelectorAll('ul li');
-        const clickedLi = lis[activeLink.value];
-        clickedLi.classList.add('active');
-      }
-    });
-
-    function underline(index) {
-      // Reset the styles for all li elements
-      const lis = document.querySelectorAll('ul li');
-      lis.forEach((li) => li.classList.remove('active'));
-
-      // Apply the styles only to the clicked li element (except for index -1)
-      if (index !== -1) {
-        const clickedLi = lis[index];
-        clickedLi.classList.add('active');
-      }
-
-      // Update the Vuex store state
-      store.commit('setActiveLink', index);
-      activeLink.value = index;
-    }
-
-    return { activeLink, underline };
-  },
-};
-</script>

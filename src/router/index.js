@@ -52,7 +52,24 @@ const router = createRouter({
       name: 'escape',
       component: () => import('../views/Escape.vue')
     },
-  ]
+    {
+      path: '/menu',
+      name: 'menu',
+      component: () => import('../views/menu.vue')
+    },
+  ],
+  scrollBehavior(to, from, savedPosition) {
+    // If the hash exists in the URL, scroll to the hash
+    if (to.hash) {
+      return {
+        el: to.hash,
+        behavior: 'smooth',
+      };
+    }
+
+    // Otherwise, scroll to top
+    return { top: 0, behavior: 'smooth' };
+  },
 })
 
 export default router

@@ -130,68 +130,6 @@ font-style: normal; font-size: 4rem;">
     </div>
   </div>
 
-  <div class="container-fluid">
-    <div class="grid">
-      <div class="card-container p-3">
-        <div class="flex align-items-center justify-content-center pb-3 sm:col-12 md:col-6 lg:col-6">
-          <div class="flip-card">
-            <div class="flip-card-inner">
-              <div class="flip-card-front">
-                Advertising
-              </div>
-              <div class="flip-card-back">
-                <h1>John Doe</h1>
-                <p>Architect & Engineer</p>
-                <p>We love that guy</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="flex align-items-center justify-content-center pb-3 sm:col-12 md:col-6 lg:col-6">
-          <div class="flip-card">
-            <div class="flip-card-inner">
-              <div class="flip-card-front">
-                Rebranding
-              </div>
-              <div class="flip-card-back">
-                <h1>John Doe</h1>
-                <p>Architect & Engineer</p>
-                <p>We love that guy</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="flex align-items-center justify-content-center pb-3 sm:col-12 md:col-6 lg:col-6">
-          <div class="flip-card">
-            <div class="flip-card-inner">
-              <div class="flip-card-front">
-                Videos
-              </div>
-              <div class="flip-card-back">
-                <h1>John Doe</h1>
-                <p>Architect & Engineer</p>
-                <p>We love that guy</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="flex align-items-center justify-content-center pb-3 sm:col-12 md:col-6 lg:col-6">
-          <div class="flip-card">
-            <div class="flip-card-inner">
-              <div class="flip-card-front">
-                UI/UX
-              </div>
-              <div class="flip-card-back">
-                <h1>John Doe</h1>
-                <p>Architect & Engineer</p>
-                <p>We love that guy</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
 
   <div class="footer">
     <div class="txt">
