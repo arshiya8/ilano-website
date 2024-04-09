@@ -96,7 +96,7 @@
         </div>
         <div class="logos">
             <div class="logos-slide">
-                <img src="/layouts/p1.png" style="width: 275px; height: 424px; border-radius: 50px;  " />
+                <img src="/layouts/p1.png" style="width: 275px; height: 424px; border-radius: 50px;" />
                 <img src="/layouts/ig3.png" style="width: 275px; height: 290px; border-radius: 50px; " />
                 <img src="/layouts/ig1.png" style="width: 275px; height: 290px; border-radius: 50px;" />
                 <img src="/layouts/p3.png" style="width: 275px; height: 424px; border-radius: 50px; " />
@@ -142,10 +142,11 @@
     <div class="footer5">
         <div class="right">
             <router-link :to="{ name: 'gym' }">
-                
-                <p style="font-family: 'hey-eloise', sans-serif; font-weight: 400; font-style: normal; font-size: 2rem; display: inline-block; vertical-align: sub;color: white;">
+
+                <p
+                    style="font-family: 'hey-eloise', sans-serif; font-weight: 400; font-style: normal; font-size: 2rem; display: inline-block; vertical-align: sub;color: white;">
                     next work</p>
-                    <img src="/layouts/right.png" width="50px" height="50px"
+                <img src="/layouts/right.png" width="50px" height="50px"
                     style="display: inline-block; vertical-align: middle;" />
             </router-link>
         </div>
@@ -153,7 +154,8 @@
             <router-link :to="{ name: 'work' }">
                 <img src="/layouts/left.png" width="50px" height="50px"
                     style="display: inline-block; vertical-align: middle;" />
-                <p style="font-family: 'hey-eloise', sans-serif; font-weight: 400; font-style: normal; font-size: 2rem; display: inline-block; vertical-align: sub;color: white;">
+                <p
+                    style="font-family: 'hey-eloise', sans-serif; font-weight: 400; font-style: normal; font-size: 2rem; display: inline-block; vertical-align: sub;color: white;">
                     Back to works</p>
             </router-link>
         </div>
@@ -209,7 +211,10 @@ body {
 .logos-slide img {
     /* height: 50px; */
     margin: 0 40px;
+    
 }
+
+
 
 
 .footer5 {
@@ -241,5 +246,4 @@ body {
     position: absolute;
     right: 40px;
     top: 30px;
-}
-</style>
+}</style>
