@@ -52,6 +52,11 @@ const router = createRouter({
       name: 'escape',
       component: () => import('../views/Escape.vue')
     },
+    {
+      path: '/adMain',
+      name: 'adMain',
+      component: () => import('../views/advertising/AdMain.vue')
+    },
   ],
   scrollBehavior(to, from, savedPosition) {
     // If the hash exists in the URL, scroll to the hash

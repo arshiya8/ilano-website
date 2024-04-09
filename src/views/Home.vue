@@ -9,7 +9,9 @@ body {
   color: white;
 }
 
-
+div.container-fluid {
+  padding: 0px 0px;
+}
 
 /* flip cards  */
 .card-container {
@@ -18,21 +20,18 @@ body {
   /* Allow cards to wrap to the next line */
   justify-content: space-between;
   /* Distribute cards evenly within each row */
-  width: 100%;
+  width: 90%;
   margin: 0 auto;
 }
 
 .flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 358px;
   border: none;
+  perspective: 1000px;
   /* Remove this if you don't want the 3D effect */
   border-radius: 15px;
-
-  width: 732px;
-  height: 320px;
-  perspective: 1000px;
-  background-color: transparent;
-  border: none;
-  font-family: "Dark Crow Italic PERSONAL USE";
 }
 
 /* This container is needed to position the front and back side */
@@ -43,8 +42,6 @@ body {
   text-align: center;
   transition: transform 0.8s;
   transform-style: preserve-3d;
-  border-radius: 15px;
-
 }
 
 /* Do an horizontal flip when you move the mouse over the flip box container */
@@ -61,52 +58,25 @@ body {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   border-radius: 15px;
-
-  border: 1px solid rgba(255, 255, 255, 0.255);
-  display: flex;
-  /* Add display: flex */
-  align-items: center;
-  /* Center items horizontally */
-  justify-content: center;
-  /* Center items vertically */
-  background-color: rgb(39, 38, 38);
-  color: white;
-  text-shadow: 3px 3px 1.5px rgb(14, 13, 13);
 }
 
 /* Style the front side (fallback if image is missing) */
 .flip-card-front {
-  font-size: 4rem;
+  color: black;
+  border: 1px solid grey;
 }
 
 /* Style the back side */
 .flip-card-back {
+  background-color: #ffffff;
+  border: 1px solid grey;
+  color: black;
+  transform: rotateY(180deg);
   display: flex;
   justify-content: center;
   font-size: 14px;
   padding: 10px;
-  color: white;
-  transform: rotateY(180deg);
 }
-
-.footer {
-  position: relative;
-  border: none;
-  background-color: #3533333c;
-  width: 100%;
-  height: 150px;
-  margin-top: 150px;
-}
-
-.txt {
-  position: absolute;
-  text-align: center;
-  left: 40%;
-  bottom: 13px;
-  font-family: 'Times New Roman', Times, serif;
-  font-size: smaller;
-}
-
 </style>
 
 <template>
@@ -115,7 +85,7 @@ body {
 
   <div class="container-fluid">
     <div class="text-center text-white"
-      style="margin-top: 80px; margin-bottom: 30px; font-family: 'Mohave', sans-serif; font-size: 4rem;">
+      style="margin-top: 80px; margin-bottom: 30px; font-family: 'Mohave', sans-serif; font-size: 3rem;">
       QUIET OFFLINE, <br />
       BABBLES ONLINE,<br />
       <div style="font-family: 'hey-eloise', sans-serif;
@@ -128,14 +98,111 @@ font-style: normal; font-size: 4rem;">
     <div class="text-center text-white" style="font-family: 'Courier New', Courier, monospace; margin-bottom: 120px;">
       Hi, I'm Danielle :)
     </div>
-  </div>
+    <div class="bg-white text-black" style="border-top-right-radius: 85px; border-top-left-radius: 85px;">
+      <div
+        style="font-family: 'Mohave', sans-serif; font-size: 5rem; padding-top: 90px; padding-left: 50px; padding-right:50px;">
+        WORKS </div>
 
-
-  <div class="footer">
-    <div class="txt">
-      2023 Danielle Ilano. All Rights Reserved
+      <!-- <div class="container-fluid mx-3"> -->
+      <div class="grid">
+        <div class="card-container mt-5">
+          <div class="flex align-items-center justify-content-center pb-5 sm:col-12 md:col-6 lg:col-3">
+            <div class="row">
+              <div class="col-12">
+                <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="/layouts/a1.jpg" style="width: 300px; height: 358px; border-radius: 15px;" />
+                </div>
+                <div class="flip-card-back">
+                  <div class="justify-content-center">
+                    <router-link :to="{ name: 'adMain' }"><Button label="See More" rounded></Button></router-link>
+                  </div>
+                </div>
+              </div>
+            </div>
+              </div>
+              <div class="col-12 ml-1">
+                <p style="margin-bottom: 0px; font-family:'Courier New', Courier, monospace; font-size: 0.9rem;" >CAMPAIGNS,ART DIRECTION,COPY</p> 
+                <p style="font-family: 'Mohave', sans-serif; font-size: 1.2rem;">ADVERTISING</p>
+              </div>
+            </div>          
+          </div>
+          <div class="flex align-items-center justify-content-center pb-5 sm:col-12 md:col-6 lg:col-3">
+            <div class="row">
+              <div class="col-12">
+                <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="/layouts/a2.jpg" style="width: 300px; height: 358px; border-radius: 15px;" />
+                </div>
+                <div class="flip-card-back">
+                  <div class="justify-content-center">
+                    <router-link :to="{ name: 'home' }"><Button label="See More" rounded></Button></router-link>
+                  </div>
+                </div>
+              </div>
+            </div>
+              </div>
+              <div class="col-12 ml-1">
+                <p style="margin-bottom: 0px;font-family:'Courier New', Courier, monospace; font-size: 0.9rem;" >ART DIRECTION</p> 
+                <p style="font-family: 'Mohave', sans-serif; font-size: 1.2rem;">PRINT</p>
+              </div>
+            </div>  
+          </div>
+          <div class="flex align-items-center justify-content-center pb-5 sm:col-12 md:col-6 lg:col-3">
+            <div class="row">
+              <div class="col-12">
+                <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="/layouts/a1.jpg" style="width: 300px; height: 358px; border-radius: 15px;" />
+                </div>
+                <div class="flip-card-back">
+                  <div class="justify-content-center">
+                    <router-link :to="{ name: 'home' }"><Button label="See More" rounded></Button></router-link>
+                  </div>
+                </div>
+              </div>
+            </div>
+              </div>
+              <div class="col-12 ml-1">
+                <p style="margin-bottom: 0px;font-family:'Courier New', Courier, monospace; font-size: 0.9rem;" >VIDEO EDITING</p> 
+                <p style="font-family: 'Mohave', sans-serif; font-size: 1.2rem;">VIDEOS</p>
+              </div>
+            </div>  
+          </div>
+          <div class="flex align-items-center justify-content-center pb-5 sm:col-12 md:col-6 lg:col-3">
+            <div class="row">
+              <div class="col-12">
+                <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="/layouts/a2.jpg" style="width: 300px; height: 358px; border-radius: 15px;" />
+                </div>
+                <div class="flip-card-back">
+                  <div class="justify-content-center">
+                    <router-link :to="{ name: 'home' }"><Button label="See More" rounded></Button></router-link>
+                  </div>
+                </div>
+              </div>
+            </div>
+              </div>
+              <div class="col-12 ml-1">
+                <p style="margin-bottom: 0px;font-family:'Courier New', Courier, monospace; font-size: 0.9rem;">WEBSITE DESIGN</p> 
+                <p style="font-family: 'Mohave', sans-serif; font-size: 1.2rem;">UI/UX</p>
+              </div>
+            </div>  
+          </div>
+        </div>
+      </div>
     </div>
+    <!-- </div> -->
   </div>
+
+
+
+
 </template>
 
 <script setup>
