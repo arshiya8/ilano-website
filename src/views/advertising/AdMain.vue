@@ -111,6 +111,14 @@ div.container-fluid {
     text-align: center;
     z-index: 10;
 }
+
+.ft {
+  background-color: #121212;
+  border: solid 1px #121212;
+  margin: 60px;
+  color: grey;
+  font-family: 'Times New Roman', Times, serif;
+}
 </style>
 
 <template>
@@ -185,7 +193,7 @@ div.container-fluid {
                                     <img src="/layouts/dn.jpg"
                                         style="width: 350px; height: 358px; border-radius: 15px;" />
                                         <div class="bt">
-                                        <button type="button" class="btn btn-light rounded-pill" style="font-size: 1.9rem; padding: 0 30px;">DISCOVER</button>
+                                            <router-link :to="{name: 'rex'}"><button type="button" class="btn btn-light rounded-pill" style="font-size: 1.9rem; padding: 0 30px;">DISCOVER</button></router-link>
                                     </div>
                                 </div>
                             </div>
@@ -205,7 +213,7 @@ div.container-fluid {
                                     <img src="/layouts/hn.jpg"
                                         style="width: 350px; height: 358px; border-radius: 15px;" />
                                         <div class="bt">
-                                        <button type="button" class="btn btn-light rounded-pill" style="font-size: 1.9rem; padding: 0 30px;">DISCOVER</button>
+                                            <router-link :to="{name: 'heineken'}"><button type="button" class="btn btn-light rounded-pill" style="font-size: 1.9rem; padding: 0 30px;">DISCOVER</button></router-link>
                                     </div>
                                 </div>
                             </div>
@@ -225,7 +233,7 @@ div.container-fluid {
                                     <img src="/layouts/zn.jpg"
                                         style="width: 350px; height: 358px; border-radius: 15px;" />
                                         <div class="bt">
-                                        <button type="button" class="btn btn-light rounded-pill" style="font-size: 1.9rem; padding: 0 30px;">DISCOVER</button>
+                                            <router-link :to="{name: 'escape'}"><button type="button" class="btn btn-light rounded-pill" style="font-size: 1.9rem; padding: 0 30px;">DISCOVER</button></router-link>
                                     </div>
                                 </div>
                             </div>
@@ -235,6 +243,9 @@ div.container-fluid {
             </div>
         </div>
         <!-- </div> -->
+        <div class="ft" style="text-align: center;">
+      2023 Danielle Ilano. All Rights Reserved     
+    </div>
     </div>
 
 

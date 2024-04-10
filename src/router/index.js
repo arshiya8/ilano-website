@@ -18,9 +18,9 @@ const router = createRouter({
       component: () => import('../views/About.vue')
     },
     {
-      path: '/work',
-      name: 'work',
-      component: () => import('../views/Work.vue')
+      path: '/rex',
+      name: 'rex',
+      component: () => import('../views/advertising/Rex.vue')
     },
     {
       path: '/play',
@@ -45,12 +45,12 @@ const router = createRouter({
     {
       path: '/heineken',
       name: 'heineken',
-      component: () => import('../views/Heineken.vue')
+      component: () => import('../views/advertising/Heineken.vue')
     },
     {
       path: '/escape',
       name: 'escape',
-      component: () => import('../views/Escape.vue')
+      component: () => import('../views/advertising/Escape.vue')
     },
     {
       path: '/adMain',

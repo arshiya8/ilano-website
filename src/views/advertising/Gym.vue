@@ -52,7 +52,7 @@
 
     <div class="bg-white container-fluid text-black"
         style="border-top-right-radius: 154px; border-top-left-radius: 154px;">
-        <div style="font-family: 'Mohave', sans-serif; font-size: 5rem; padding-top: 90px; text-align: center;">
+        <div style="font-family: 'Mohave', sans-serif; font-size: 5rem; padding-top: 50px; text-align: center;">
             ASSETS
         </div>
         <div class="row" style="margin-top: 40px;">
@@ -145,7 +145,7 @@
                     style="display: inline-block; vertical-align: middle;" />
                 <p
                     style="font-family: 'hey-eloise', sans-serif; font-weight: 400; font-style: normal; font-size: 2rem; display: inline-block; vertical-align: sub;color: white;">
-                    previous work</p>
+                    Back to advertising</p>
             </router-link>
         </div>
         <div class="txt6">

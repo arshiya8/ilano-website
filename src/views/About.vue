@@ -61,14 +61,14 @@ body {
   border: none;
   background-color: #3533333c;
   width: 100%;
-  height: 150px;
+  height: 80px;
 }
 
 .txt3 {
   position: absolute;
   text-align: center;
   left: 40%;
-  bottom: 13px;
+  bottom: 20px;
   font-family: 'Times New Roman', Times, serif;
   font-size: smaller;
 }

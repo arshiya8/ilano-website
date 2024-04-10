@@ -13,7 +13,7 @@ const logoUrl = computed(() => {
 const items = ref([
   {
     label: "Works",
-    routeName: "work",
+    routeName: "home",
   },
   {
     label: "Play",
@@ -36,7 +36,7 @@ const items = ref([
       <div class="d-flex justify-content-between align-items-center mb-3">
         <!-- Logo on the left -->
         <div class="d-flex align-items-center">
-          <router-link :to="{name: 'home'}" ><img alt="logo" :src="logoUrl" /></router-link>
+         <img alt="logo" :src="logoUrl" style="width: 90px; height: 50px;"/>
           <!-- Instagram -->
           <a href="https://www.instagram.com/lostinhelle?igshid=OGQ5ZDc2ODk2ZA=="><img src="/layouts/Instagram.png" /></a>
           <!-- Linkedin -->
@@ -49,11 +49,11 @@ const items = ref([
     font-style: normal;
     font-size: xx-large; margin: 0px 15px;">
           <template #item="{ label, item, props, root, hasSubmenu }" class="p-menuitem-active text-white">
-            <router-link v-if="item.routeName" v-slot="routerProps" :to="{ name: item.routeName }" custom :exact="true">
+            <RouterLink v-if="item.routeName" v-slot="routerProps" :to="{ name: item.routeName }" custom :exact="true">
               <a :href="routerProps.href" v-bind="props.action">
                 <span v-bind="props.label">{{ label }}</span>
               </a>
-            </router-link>
+            </RouterLink>
             <a v-else :href="item.url" :target="item.target" v-bind="props.action">
               <span v-bind="props.label">{{ label }}</span>
               <span :class="[

@@ -8,7 +8,7 @@
             INTO COMMISIONS
         </div>
     </div>
-
+    <link href="https://db.onlinewebfonts.com/c/0a3b16ce4d5d730e4db365078351415b?family=Dark+Crow+Italic+PERSONAL+USE" rel="stylesheet">
     <div class="container-fluid">
     <div class="grid">
       <div class="card-container2">
@@ -55,7 +55,7 @@
             <div class="flip-card-inner2">
               <div class="flip-card-front2">
                 <div class="wd2" style="line-height: 95%;">
-                    Poetry <span style="font-size: 2.5rem;"> BookBinding</span>
+                    Poetry <span style="font-size: 2.8rem;"> BookBinding</span>
                     <button type="button" class="btn btn-outline-light rounded-pill" style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; padding: 0 10px; font-size: medium;">
                         CREATIVE CRAFT</button>
                 </div>
@@ -85,7 +85,7 @@ import MouseFollower from '../components/MouseFollower.vue';
 </script>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Mohave:wght@700&display=swap');
-@import url('https://db.onlinewebfonts.com/c/0a3b16ce4d5d730e4db365078351415b?family=Dark+Crow+Italic+PERSONAL+USE');
+
 
 body {
   background-color: #121212;
@@ -110,7 +110,6 @@ body {
   border: none;
   /* Remove this if you don't want the 3D effect */
   border-radius: 50px;
-
   width: 508px;
   height: 320px;
   perspective: 1000px;
@@ -133,13 +132,13 @@ body {
 }
 
 /* Do an horizontal flip when you move the mouse over the flip box container */
-.flip-card2:hover .flip-card-inner2 {
+/* .flip-card2:hover .flip-card-inner2 {
   transform: rotateY(180deg);
-}
+} */
 
 /* Position the front and back side */
-.flip-card-front2,
-.flip-card-back2 {
+.flip-card-front2
+/* .flip-card-back2*/ { 
   position: absolute;
   width: 100%;
   height: 100%;
@@ -166,14 +165,14 @@ body {
 }
 
 /* Style the back side */
-.flip-card-back2 {
+/* .flip-card-back2 {
   display: flex;
   justify-content: center;
   font-size: 14px;
   padding: 10px;
   color: white;
   transform: rotateY(180deg);
-}
+} */
 
 .flip-card-front2 img {
   width: 100%;
@@ -197,7 +196,7 @@ body {
   border: none;
   background-color: #3533333c;
   width: 100%;
-  height: 150px;
+  height: 80px;
   margin-top: 150px;
 }
 
@@ -205,7 +204,7 @@ body {
   position: absolute;
   text-align: center;
   left: 40%;
-  bottom: 50px;
+  bottom: 20px;
   font-family: 'Times New Roman', Times, serif;
   font-size: smaller;
 }

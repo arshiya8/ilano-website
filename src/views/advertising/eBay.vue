@@ -128,7 +128,7 @@
     </div>
     <div class="footer5">
         <div class="right">
-            <router-link :to="{ name: 'gym' }">
+            <router-link :to="{ name: 'rex' }">
 
                 <p
                     style="font-family: 'hey-eloise', sans-serif; font-weight: 400; font-style: normal; font-size: 2rem; display: inline-block; vertical-align: sub;color: white;">
@@ -143,7 +143,7 @@
                     style="display: inline-block; vertical-align: middle;" />
                 <p
                     style="font-family: 'hey-eloise', sans-serif; font-weight: 400; font-style: normal; font-size: 2rem; display: inline-block; vertical-align: sub;color: white;">
-                    Back to works</p>
+                    previous work</p>
             </router-link>
         </div>
         <div class="txt5">
