@@ -23,11 +23,11 @@
                         FANART</button>
                 </div>
               </div>
-              <div class="flip-card-back2">
+              <!-- <div class="flip-card-back2">
                 <h1>John Doe</h1>
                 <p>Architect & Engineer</p>
                 <p>We love that guy</p>
-              </div>
+              </div> -->
             </div>
           </div>
         </div>
@@ -41,11 +41,6 @@
                         FAN EDITS</button>
                 </div>
                 
-              </div>
-              <div class="flip-card-back2">
-                <h1>John Doe</h1>
-                <p>Architect & Engineer</p>
-                <p>We love that guy</p>
               </div>
             </div>
           </div>
@@ -61,11 +56,11 @@
                 </div>
                
               </div>
-              <div class="flip-card-back2">
+              <!-- <div class="flip-card-back2">
                 <h1>John Doe</h1>
                 <p>Architect & Engineer</p>
                 <p>We love that guy</p>
-              </div>
+              </div> -->
             </div>
           </div>
         </div>
@@ -126,7 +121,7 @@ body {
   text-align: center;
   transition: transform 0.8s;
   transform-style: preserve-3d;
-
+  font-family: "Dark Crow Italic PERSONAL USE";
   border-radius: 50px;
 
 }
@@ -145,7 +140,7 @@ body {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   border-radius: 50px;
-
+  font-family: "Dark Crow Italic PERSONAL USE";
   border: 1px solid rgba(255, 255, 255, 0.255);
   display: flex;
   /* Add display: flex */
@@ -183,6 +178,7 @@ body {
 
 .flip-card-front2 .wd {
     position: absolute;
+    font-family: "Dark Crow Italic PERSONAL USE";
 }
 
 .flip-card-front2 .wd button {
