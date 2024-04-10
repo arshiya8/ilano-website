@@ -23,22 +23,24 @@
                 01 | BRIEF
             </div>
             <div style="font-family: 'Montserrat', sans-serif; font-weight: 600; font-size: 2rem;">
-                With the UK being the home of eBay's biggest <br>supporters, eBay wants Gen Z in the UK to sell <br> their
-                preloved items
-                and be the first platform <br> that Gen Z goes to sell their items in an <br> eco friendly way.
+                Gymshark wants to increase brand awareness to <br>18 - 21 year olds who are committed to becoming <br>
+                the best version of themselves.
+
             </div>
         </div>
     </div>
 
-    <div class="flex justify-content-center align-items-center" style="margin: 80px 0px">
+    <div class="flex justify-content-center align-items-center" style="margin: 80px 0px; margin-bottom: 180px;">
         <div class="text-left lh-sm">
             <div style="font-family: 'hey-eloise', sans-serif; font-weight: 400; font-style: normal; font-size: 3rem; ">
                 02 | DESCRIPTION
             </div>
-            <div style="font-family: 'Montserrat', sans-serif; font-weight: 600; font-size: 2rem;">
-                Nepo Babies are controversially one of the <br>most talked about topics in the Gen Z because
-                <br>of their cheat code to success. So, we turned <br>their attention towards helping UK's <br> homeless
-                problem.
+            <div style="font-family: 'Montserrat', sans-serif; font-weight: 600; font-size: 1.7rem;">
+                We want to challenge the gym culture of having <br>to look perfect while training your body.
+                <br>#GymFace is a social movement that encourages people <br>to make ugly faces to abandon their
+                insecurities<br>
+                in the gym and practice confidence instead.
+
             </div>
         </div>
     </div>
@@ -48,39 +50,13 @@
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 
-    <div class="bg-white container-fluid text-black" style="border-top-right-radius: 154px; border-top-left-radius: 154px;">
-        <div
-            style="font-family: 'Mohave', sans-serif; font-size: 5rem; padding-top: 90px; padding-left: 90px; padding-right: 90px;">
+    <div class="bg-white container-fluid text-black"
+        style="border-top-right-radius: 154px; border-top-left-radius: 154px;">
+        <div style="font-family: 'Mohave', sans-serif; font-size: 5rem; padding-top: 90px; text-align: center;">
             ASSETS
-            <div class="row">
-                <div class="col-4" style="justify-content: center; align-items: center; display: flex;">
-                    <div class="fa fa-camera"
-                        style="background-color: #B468FD; border-radius: 50%;padding: 25px; font-size:60px">
-                    </div>
-                </div>
-                <div class="col-8" style="justify-content: center; align-items: center; display: flex;">
-                    <img src="/layouts/gym.jpg" style="width: 668px; height: 442px; border-radius: 81px;" />
-                </div>
-            </div>
-            <div class="row" style="margin-top: 150px;">
-                <div class="col-4" style="justify-content: center; align-items: center; display: flex;">
-                    <div class="fa fa-play-circle"
-                        style="background-color: #5481F8; border-radius: 50%;padding: 12px 18px; font-size:90px">
-                    </div>
-                </div>
-                <div class="col-8" style="justify-content: center; align-items: center; display: flex;">
-                    <video width="668px" height="442px" controls>
-                        <source src="/layouts/gv.mp4" type="video/mp4">
-
-                    </video>
-                </div>
-            </div>
         </div>
         <div class="row" style="margin-top: 40px;">
-            <div class="col" style="margin-top: 30px;">
-                <hr>
-            </div>
-            <div class="col">
+            <div class="col" style="margin-left: 50px;">
                 <div class="d-flex align-items-center">
                     <i class="material-symbols-outlined"
                         style="background-color: black; color: white; border-radius: 50%; padding: 20px; font-size: 60px;">
@@ -90,26 +66,26 @@
                     </p>
                 </div>
             </div>
-            <div class="col" style="margin-top: 30px;">
+            <div class="col-8" style="margin-top: 30px;">
                 <hr>
             </div>
         </div>
         <div class="logos">
             <div class="logos-slide">
-                <img src="/layouts/p1.png" style="width: 275px; height: 424px; border-radius: 50px;  " />
-                <img src="/layouts/ig3.png" style="width: 275px; height: 290px; border-radius: 50px; " />
-                <img src="/layouts/ig1.png" style="width: 275px; height: 290px; border-radius: 50px;" />
-                <img src="/layouts/p3.png" style="width: 275px; height: 424px; border-radius: 50px; " />
-                <img src="/layouts/ig2.png" style="width: 275px; height: 290px; border-radius: 50px;" />
-                <img src="/layouts/p2.png" style="width: 275px; height: 424px; border-radius: 50px;  " />
+                <img src="/layouts/g04.jpg" style="width: 275px; height: 424px; border-radius: 50px;  " />
+                <img src="/layouts/g03.png" style="width: 275px; height: 290px; border-radius: 50px; " />
+                <img src="/layouts/g02.jpg" style="width: 275px; height: 290px; border-radius: 50px;" />
+                <img src="/layouts/g06.jpg" style="width: 275px; height: 424px; border-radius: 50px; " />
+                <img src="/layouts/g01.jpg" style="width: 275px; height: 290px; border-radius: 50px;" />
+                <img src="/layouts/g05.jpg" style="width: 275px; height: 424px; border-radius: 50px;  " />
             </div>
             <div class="logos-slide">
-                <img src="/layouts/p1.png" style="width: 275px; height: 424px; border-radius: 50px;  " />
-                <img src="/layouts/ig3.png" style="width: 275px; height: 290px; border-radius: 50px; " />
-                <img src="/layouts/ig1.png" style="width: 275px; height: 290px; border-radius: 50px;" />
-                <img src="/layouts/p3.png" style="width: 275px; height: 424px; border-radius: 50px; " />
-                <img src="/layouts/ig2.png" style="width: 275px; height: 290px; border-radius: 50px;" />
-                <img src="/layouts/p2.png" style="width: 275px; height: 424px; border-radius: 50px;  " />
+                <img src="/layouts/g04.jpg" style="width: 275px; height: 424px; border-radius: 50px;  " />
+                <img src="/layouts/g03.png" style="width: 275px; height: 290px; border-radius: 50px; " />
+                <img src="/layouts/g05.jpg" style="width: 275px; height: 290px; border-radius: 50px;" />
+                <img src="/layouts/g06.jpg" style="width: 275px; height: 424px; border-radius: 50px; " />
+                <img src="/layouts/g01.jpg" style="width: 275px; height: 290px; border-radius: 50px;" />
+                <img src="/layouts/g02.jpg" style="width: 275px; height: 424px; border-radius: 50px;  " />
             </div>
         </div>
         <div class="row">
@@ -117,6 +93,19 @@
                 <hr>
             </div>
         </div>
+        <div class="row" style="margin-top: 0px;">
+            <div class="col-12" style="justify-content: center; align-items: center; display: flex;">
+                <video width="868px" height="642px" controls>
+                    <source src="/layouts/gv.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12" style="justify-content: center; align-items: center; display: flex;">
+                <img src="/layouts/gym.jpg" style="width: 868px; height: 642px;" />
+            </div>
+        </div>
+        
         <div class="container" style="margin: 20px 70px;">
             <div class="text-left" style="font-family: 'Mohave', sans-serif; font-size: 1.5rem; font-weight: lighter;">
                 CREDITS
@@ -141,19 +130,21 @@
     </div>
     <div class="footer6">
         <div class="right1">
-            <router-link :to="{ name: 'heineken' }">
-                
-                <p style="font-family: 'hey-eloise', sans-serif; font-weight: 400; font-style: normal; font-size: 2rem; display: inline-block; vertical-align: sub;color: white;">
+            <router-link :to="{ name: 'eBay' }">
+
+                <p
+                    style="font-family: 'hey-eloise', sans-serif; font-weight: 400; font-style: normal; font-size: 2rem; display: inline-block; vertical-align: sub;color: white;">
                     next work</p>
-                    <img src="/layouts/right.png" width="50px" height="50px"
+                <img src="/layouts/right.png" width="50px" height="50px"
                     style="display: inline-block; vertical-align: middle;" />
             </router-link>
         </div>
         <div class="left1">
-            <router-link :to="{ name: 'eBay' }">
+            <router-link :to="{ name: 'adMain' }">
                 <img src="/layouts/left.png" width="50px" height="50px"
                     style="display: inline-block; vertical-align: middle;" />
-                <p style="font-family: 'hey-eloise', sans-serif; font-weight: 400; font-style: normal; font-size: 2rem; display: inline-block; vertical-align: sub;color: white;">
+                <p
+                    style="font-family: 'hey-eloise', sans-serif; font-weight: 400; font-style: normal; font-size: 2rem; display: inline-block; vertical-align: sub;color: white;">
                     previous work</p>
             </router-link>
         </div>
@@ -163,8 +154,8 @@
     </div>
 </template>
 <script setup>
-import MouseFollower from '../components/MouseFollower.vue';
-import Navbar from '../components/Navbar.vue';
+import MouseFollower from '../../components/MouseFollower.vue';
+import Navbar from '../../components/Navbar.vue';
 
 </script>
 <style>

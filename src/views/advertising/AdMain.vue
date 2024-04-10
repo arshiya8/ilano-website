@@ -97,6 +97,20 @@ div.container-fluid {
     text-align: center;
     z-index: 10;
 }
+
+.bt {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    padding: 10px;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    z-index: 10;
+}
 </style>
 
 <template>
@@ -130,6 +144,9 @@ div.container-fluid {
                                 <div class="flip-cardm-back">
                                     <img src="/layouts/gn.jpg"
                                         style="width: 350px; height: 358px; border-radius: 15px;" />
+                                    <div class="bt">
+                                       <router-link :to="{name:'gym'}" ><button type="button" class="btn btn-light rounded-pill" style="font-size: 1.9rem; padding: 0 30px;">DISCOVER</button></router-link>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -147,6 +164,9 @@ div.container-fluid {
                                 <div class="flip-cardm-back">
                                     <img src="/layouts/en.jpg"
                                         style="width: 350px; height: 358px; border-radius: 15px;" />
+                                        <div class="bt">
+                                        <router-link :to="{name: 'eBay'}"><button type="button" class="btn btn-light rounded-pill" style="font-size: 1.9rem; padding: 0 30px;">DISCOVER</button></router-link>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -164,11 +184,14 @@ div.container-fluid {
                                 <div class="flip-cardm-back">
                                     <img src="/layouts/dn.jpg"
                                         style="width: 350px; height: 358px; border-radius: 15px;" />
+                                        <div class="bt">
+                                        <button type="button" class="btn btn-light rounded-pill" style="font-size: 1.9rem; padding: 0 30px;">DISCOVER</button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="flex align-items-center justify-content-center pb-5 sm:col-12 lg:col-4">
+                    <div class="flex align-items-center justify-content-center pb-5 sm:col-12 lg:col-6">
                         <div class="flip-cardm">
                             <div class="flip-cardm-inner">
                                 <div class="flip-cardm-front">
@@ -181,11 +204,14 @@ div.container-fluid {
                                 <div class="flip-cardm-back">
                                     <img src="/layouts/hn.jpg"
                                         style="width: 350px; height: 358px; border-radius: 15px;" />
+                                        <div class="bt">
+                                        <button type="button" class="btn btn-light rounded-pill" style="font-size: 1.9rem; padding: 0 30px;">DISCOVER</button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <!-- <div class="flex align-items-center justify-content-center pb-5 sm:col-12 md:col-6 lg:col-3">
+                    <div class="flex align-items-center justify-content-center pb-5 sm:col-12 lg:col-6">
                         <div class="flip-cardm">
                             <div class="flip-cardm-inner">
                                 <div class="flip-cardm-front">
@@ -198,10 +224,13 @@ div.container-fluid {
                                 <div class="flip-cardm-back">
                                     <img src="/layouts/zn.jpg"
                                         style="width: 350px; height: 358px; border-radius: 15px;" />
+                                        <div class="bt">
+                                        <button type="button" class="btn btn-light rounded-pill" style="font-size: 1.9rem; padding: 0 30px;">DISCOVER</button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div> -->
+                    </div>
                 </div>
             </div>
         </div>

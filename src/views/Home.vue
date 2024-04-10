@@ -77,6 +77,21 @@ div.container-fluid {
   font-size: 14px;
   padding: 10px;
 }
+
+.tth {
+    position: absolute;
+    top: 12%;
+    left: 21%;
+    transform: translate(-50%, -50%);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+    font-size: 0.6rem;
+    text-align: left;
+    z-index: 10;
+}
 </style>
 
 <template>
@@ -113,6 +128,14 @@ font-style: normal; font-size: 4rem;">
               <div class="flip-card-inner">
                 <div class="flip-card-front">
                   <img src="/layouts/a1.jpg" style="width: 300px; height: 358px; border-radius: 15px;" />
+                  <div class="tth lh-1">
+                    GYMSHARK <br/>
+                    EBAY <br/>
+                    WATTPAD <br/>
+                    KRAFT MAC & CHEESE <br/>
+                    NETFLIX <br/>
+                    SKY
+                  </div>
                 </div>
                 <div class="flip-card-back">
                   <div class="justify-content-center">
@@ -135,10 +158,16 @@ font-style: normal; font-size: 4rem;">
               <div class="flip-card-inner">
                 <div class="flip-card-front">
                   <img src="/layouts/a2.jpg" style="width: 300px; height: 358px; border-radius: 15px;" />
+                  <div class="tth lh-1" style="left: 33%; top: 10%;">
+                    SPOTIFY <br/>
+                    THE ARTFUL DODGER <br/>
+                    ONLY MURDERS IN THE BUILDING <br/>
+                    THE BALLADS OF SONGBIRDS AND SNAKES 
+                  </div>
                 </div>
                 <div class="flip-card-back">
                   <div class="justify-content-center">
-                    <router-link :to="{ name: 'home' }"><Button label="See More" rounded></Button></router-link>
+                    <router-link :to="{ name: 'printMain' }"><Button label="See More" rounded></Button></router-link>
                   </div>
                 </div>
               </div>
@@ -148,7 +177,7 @@ font-style: normal; font-size: 4rem;">
                 <p style="margin-bottom: 0px;font-family:'Courier New', Courier, monospace; font-size: 0.9rem;" >ART DIRECTION</p> 
                 <p style="font-family: 'Mohave', sans-serif; font-size: 1.2rem;">PRINT</p>
               </div>
-            </div>  
+            </div>          
           </div>
           <div class="flex align-items-center justify-content-center pb-5 sm:col-12 md:col-6 lg:col-3">
             <div class="row">
@@ -156,7 +185,7 @@ font-style: normal; font-size: 4rem;">
                 <div class="flip-card">
               <div class="flip-card-inner">
                 <div class="flip-card-front">
-                  <img src="/layouts/a1.jpg" style="width: 300px; height: 358px; border-radius: 15px;" />
+                  <img src="/layouts/lock.png" style="width: 300px; height: 358px; border-radius: 15px;" />
                 </div>
                 <div class="flip-card-back">
                   <div class="justify-content-center">
@@ -178,7 +207,7 @@ font-style: normal; font-size: 4rem;">
                 <div class="flip-card">
               <div class="flip-card-inner">
                 <div class="flip-card-front">
-                  <img src="/layouts/a2.jpg" style="width: 300px; height: 358px; border-radius: 15px;" />
+                  <img src="/layouts/lock.png" style="width: 300px; height: 358px; border-radius: 15px;" />
                 </div>
                 <div class="flip-card-back">
                   <div class="justify-content-center">

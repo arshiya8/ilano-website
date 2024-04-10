@@ -36,7 +36,7 @@ const items = ref([
       <div class="d-flex justify-content-between align-items-center mb-3">
         <!-- Logo on the left -->
         <div class="d-flex align-items-center">
-          <router-link :to="{name: 'home'}" ><img alt="logo" :src="logoUrl" height="60" /></router-link>
+          <router-link :to="{name: 'home'}" ><img alt="logo" :src="logoUrl" /></router-link>
           <!-- Instagram -->
           <a href="https://www.instagram.com/lostinhelle?igshid=OGQ5ZDc2ODk2ZA=="><img src="/layouts/Instagram.png" /></a>
           <!-- Linkedin -->

@@ -35,12 +35,12 @@ const router = createRouter({
     {
       path: '/eBay',
       name: 'eBay',
-      component: () => import('../views/eBay.vue')
+      component: () => import('../views/advertising/eBay.vue')
     },
     {
       path: '/gym',
       name: 'gym',
-      component: () => import('../views/Gym.vue')
+      component: () => import('../views/advertising/Gym.vue')
     },
     {
       path: '/heineken',
@@ -56,6 +56,11 @@ const router = createRouter({
       path: '/adMain',
       name: 'adMain',
       component: () => import('../views/advertising/AdMain.vue')
+    },
+    {
+      path: '/printMain',
+      name: 'printMain',
+      component: () => import('../views/print/PrintMain.vue')
     },
   ],
   scrollBehavior(to, from, savedPosition) {

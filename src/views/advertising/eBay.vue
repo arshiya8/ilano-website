@@ -6,8 +6,8 @@
         <div style="font-family: 'Montserrat', sans-serif; font-size: 3rem;">
             eBay
         </div>
-        <div style="font-family: 'Mohave', sans-serif; font-size: 5rem;">
-            eBAY Your Privilege
+        <div style="font-family: 'Mohave', sans-serif; font-size: 5.5rem;">
+            Sell What You Read
         </div>
         <div style="font-family: 'Montserrat', sans-serif; font-size: 1.5rem;">
             Risk your parent's wrath for a good cause.
@@ -23,22 +23,21 @@
                 01 | BRIEF
             </div>
             <div style="font-family: 'Montserrat', sans-serif; font-weight: 600; font-size: 2rem;">
-                With the UK being the home of eBay's biggest <br>supporters, eBay wants Gen Z in the UK to sell <br> their
+                With the UK being the home of eBay's biggest <br>supporters, eBay wants Gen Z in the UK to sell <br>
+                their
                 preloved items
                 and be the first platform <br> that Gen Z goes to sell their items in an <br> eco friendly way.
             </div>
         </div>
     </div>
 
-    <div class="flex justify-content-center align-items-center" style="margin: 80px 0px">
+    <div class="flex justify-content-center align-items-center" style="margin: 80px 0px; margin-bottom: 180px;">
         <div class="text-left lh-sm">
             <div style="font-family: 'hey-eloise', sans-serif; font-weight: 400; font-style: normal; font-size: 3rem; ">
                 02 | DESCRIPTION
             </div>
             <div style="font-family: 'Montserrat', sans-serif; font-weight: 600; font-size: 2rem;">
-                Nepo Babies are controversially one of the <br>most talked about topics in the Gen Z because
-                <br>of their cheat code to success. So, we turned <br>their attention towards helping UK's <br> homeless
-                problem.
+                Aesthetics started with dreamers, so let's go back
             </div>
         </div>
     </div>
@@ -48,39 +47,14 @@
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 
-    <div class="bg-white container-fluid text-black" style="border-top-right-radius: 154px; border-top-left-radius: 154px;">
-        <div
-            style="font-family: 'Mohave', sans-serif; font-size: 5rem; padding-top: 90px; padding-left: 90px; padding-right: 90px;">
+    <div class="bg-white container-fluid text-black"
+        style="border-top-right-radius: 154px; border-top-left-radius: 154px;">
+        <div style="font-family: 'Mohave', sans-serif; font-size: 5rem; padding-top: 50px; text-align: center;">
             ASSETS
-            <div class="row">
-                <div class="col-4" style="justify-content: center; align-items: center; display: flex;">
-                    <div class="fa fa-camera"
-                        style="background-color: #B468FD; border-radius: 50%;padding: 25px; font-size:60px">
-                    </div>
-                </div>
-                <div class="col-8" style="justify-content: center; align-items: center; display: flex;">
-                    <img src="/layouts/ebay.jpg" style="width: 668px; height: 442px; border-radius: 81px;" />
-                </div>
-            </div>
-            <div class="row" style="margin-top: 150px;">
-                <div class="col-4" style="justify-content: center; align-items: center; display: flex;">
-                    <div class="fa fa-play-circle"
-                        style="background-color: #5481F8; border-radius: 50%;padding: 12px 18px; font-size:90px">
-                    </div>
-                </div>
-                <div class="col-8" style="justify-content: center; align-items: center; display: flex;">
-                    <video width="668px" height="442px" controls>
-                        <source src="/layouts/ev.mp4" type="video/mp4">
 
-                    </video>
-                </div>
-            </div>
         </div>
         <div class="row" style="margin-top: 40px;">
-            <div class="col" style="margin-top: 30px;">
-                <hr>
-            </div>
-            <div class="col">
+            <div class="col" style="margin-left: 50px;">
                 <div class="d-flex align-items-center">
                     <i class="material-symbols-outlined"
                         style="background-color: black; color: white; border-radius: 50%; padding: 20px; font-size: 60px;">
@@ -90,7 +64,7 @@
                     </p>
                 </div>
             </div>
-            <div class="col" style="margin-top: 30px;">
+            <div class="col-8" style="margin-top: 30px;">
                 <hr>
             </div>
         </div>
@@ -117,6 +91,19 @@
                 <hr>
             </div>
         </div>
+        <div class="row" style="margin-top: 0px;">
+            <div class="col-12" style="justify-content: center; align-items: center; display: flex;">
+                <video  width="868px" height="642px" controls>
+                    <source src="/layouts/ev.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+        <div class="row" style="margin-top: 40px;">
+            <div class="col-12" style="justify-content: center; align-items: center; display: flex;">
+                <img src="/layouts/ebay.jpg" style="width: 868px; height: 642px;" />
+            </div>
+        </div>
+        
         <div class="container" style="margin: 20px 70px;">
             <div class="text-left" style="font-family: 'Mohave', sans-serif; font-size: 1.5rem; font-weight: lighter;">
                 CREDITS
@@ -151,7 +138,7 @@
             </router-link>
         </div>
         <div class="left">
-            <router-link :to="{ name: 'work' }">
+            <router-link :to="{ name: 'gym' }">
                 <img src="/layouts/left.png" width="50px" height="50px"
                     style="display: inline-block; vertical-align: middle;" />
                 <p
@@ -165,8 +152,8 @@
     </div>
 </template>
 <script setup>
-import MouseFollower from '../components/MouseFollower.vue';
-import Navbar from '../components/Navbar.vue';
+import MouseFollower from '../../components/MouseFollower.vue';
+import Navbar from '../../components/Navbar.vue';
 
 </script>
 <style>
@@ -211,7 +198,7 @@ body {
 .logos-slide img {
     /* height: 50px; */
     margin: 0 40px;
-    
+
 }
 
 
@@ -246,4 +233,5 @@ body {
     position: absolute;
     right: 40px;
     top: 30px;
-}</style>
+}
+</style>
