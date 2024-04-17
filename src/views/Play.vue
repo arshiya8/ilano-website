@@ -178,7 +178,7 @@ body {
 
 .flip-card-front2 .wd {
     position: absolute;
-    font-family: "Dark Crow Italic PERSONAL USE";
+    font-family: 'Dark Crow Italic PERSONAL USE';
 }
 
 .flip-card-front2 .wd button {

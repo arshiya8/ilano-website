@@ -96,7 +96,7 @@
         </div>
         <div class="row" style="margin-top: 40px;">
             <div class="col-12" style="justify-content: center; align-items: center; display: flex;">
-                <img src="/layouts/heineken.png" style="width: 868px; height: 642px;" />
+                <img src="/layouts/heineken.png" style="width: 868px; height: 600px;" />
             </div>
         </div>
         <div class="container" style="margin: 20px 70px;">

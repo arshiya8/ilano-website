@@ -94,12 +94,20 @@
                 <hr>
             </div>
         </div>
-
+        <div class="row" style="margin-top: 0px;">
+            <div class="col-12" style="justify-content: center; align-items: center; display: flex;">
+                <video width="868px" height="642px" controls>
+                    <source src="/layouts/rv.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
         <div class="row" style="margin-top: 40px;">
             <div class="col-12" style="justify-content: center; align-items: center; display: flex;">
                 <img src="/layouts/rcb.png" style="width: 868px; height: 642px;" />
             </div>
         </div>
+       
+        
         
         <div class="container" style="margin: 20px 70px;">
             <div class="text-left" style="font-family: 'Mohave', sans-serif; font-size: 1.5rem; font-weight: lighter;">

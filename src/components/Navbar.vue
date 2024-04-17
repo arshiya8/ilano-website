@@ -33,10 +33,10 @@ const items = ref([
 <template>
   <div class="grid align-items-center justify-content-center">
     <div class="col-12 md:12 lg:10">
-      <div class="d-flex justify-content-between align-items-center mb-3">
+      <div class="d-flex justify-content-between align-items-center mb-3 pl-3">
         <!-- Logo on the left -->
         <div class="d-flex align-items-center">
-         <img alt="logo" :src="logoUrl" style="width: 90px; height: 50px;"/>
+         <router-link :to="{name: 'home'}" ><img alt="logo" :src="logoUrl" style="width: 90px; height: 50px;"/></router-link>
           <!-- Instagram -->
           <a href="https://www.instagram.com/lostinhelle?igshid=OGQ5ZDc2ODk2ZA=="><img src="/layouts/Instagram.png" /></a>
           <!-- Linkedin -->

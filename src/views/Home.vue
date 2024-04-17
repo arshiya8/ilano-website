@@ -44,14 +44,14 @@ div.container-fluid {
   transform-style: preserve-3d;
 }
 
-/* Do an horizontal flip when you move the mouse over the flip box container */
+Do an horizontal flip when you move the mouse over the flip box container
 .flip-card:hover .flip-card-inner {
   transform: rotateY(180deg);
 }
 
 /* Position the front and back side */
-.flip-card-front,
-.flip-card-back {
+.flip-card-front
+/* .flip-card-back  */ {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -67,7 +67,7 @@ div.container-fluid {
 }
 
 /* Style the back side */
-.flip-card-back {
+/* .flip-card-back {
   background-color: #ffffff;
   border: 1px solid grey;
   color: black;
@@ -76,7 +76,7 @@ div.container-fluid {
   justify-content: center;
   font-size: 14px;
   padding: 10px;
-}
+} */
 
 .tth {
   position: absolute;
@@ -134,6 +134,7 @@ div.container-fluid {
               <div class="col-12">
                 <div class="flip-card">
                   <div class="flip-card-inner">
+                    <router-link :to="{ name: 'adMain' }">
                     <div class="flip-card-front">
                       <img src="/layouts/a1.jpg" style="width: 300px; height: 358px; border-radius: 15px;" />
                       <div class="tth lh-1">
@@ -144,12 +145,12 @@ div.container-fluid {
                         NETFLIX <br />
                         SKY
                       </div>
-                    </div>
-                    <div class="flip-card-back">
+                    </div></router-link>
+                    <!-- <div class="flip-card-back">
                       <div class="justify-content-center">
                         <router-link :to="{ name: 'adMain' }"><Button label="See More" rounded></Button></router-link>
                       </div>
-                    </div>
+                    </div> -->
                   </div>
                 </div>
               </div>
@@ -165,6 +166,7 @@ div.container-fluid {
               <div class="col-12">
                 <div class="flip-card">
                   <div class="flip-card-inner">
+                    <router-link :to="{ name: 'printMain' }">
                     <div class="flip-card-front">
                       <img src="/layouts/a2.jpg" style="width: 300px; height: 358px; border-radius: 15px;" />
                       <div class="tth lh-1" style="left: 33%; top: 10%;">
@@ -173,13 +175,13 @@ div.container-fluid {
                         ONLY MURDERS IN THE BUILDING <br />
                         THE BALLADS OF SONGBIRDS AND SNAKES
                       </div>
-                    </div>
-                    <div class="flip-card-back">
+                    </div></router-link>
+                    <!-- <div class="flip-card-back">
                       <div class="justify-content-center">
                         <router-link :to="{ name: 'printMain' }"><Button label="See More"
                             rounded></Button></router-link>
                       </div>
-                    </div>
+                    </div> -->
                   </div>
                 </div>
               </div>
@@ -198,11 +200,11 @@ div.container-fluid {
                     <div class="flip-card-front">
                       <img src="/layouts/lock.png" style="width: 300px; height: 358px; border-radius: 15px;" />
                     </div>
-                    <div class="flip-card-back">
+                    <!-- <div class="flip-card-back">
                       <div class="justify-content-center">
                         <router-link :to="{ name: 'home' }"><Button label="See More" rounded></Button></router-link>
                       </div>
-                    </div>
+                    </div> -->
                   </div>
                 </div>
               </div>
@@ -221,11 +223,11 @@ div.container-fluid {
                     <div class="flip-card-front">
                       <img src="/layouts/lock.png" style="width: 300px; height: 358px; border-radius: 15px;" />
                     </div>
-                    <div class="flip-card-back">
+                    <!-- <div class="flip-card-back">
                       <div class="justify-content-center">
                         <router-link :to="{ name: 'home' }"><Button label="See More" rounded></Button></router-link>
                       </div>
-                    </div>
+                    </div> -->
                   </div>
                 </div>
               </div>
