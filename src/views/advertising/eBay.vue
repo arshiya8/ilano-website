@@ -71,28 +71,28 @@
         </div>
         <div class="logos">
             <div class="logos-slide">
-                <img src="/layouts/nepo.png" style="width: 275px; height: 424px; border-radius: 50px;" />
-                <img src="/layouts/p3.png" style="width: 275px; height: 424px; border-radius: 50px; " />
-                <img src="/layouts/ig3.png" style="width: 275px; height: 290px; border-radius: 50px; " />
-                <img src="/layouts/maya.png" style="width: 275px; height: 424px; border-radius: 50px;" />               
-                <img src="/layouts/p2.png" style="width: 275px; height: 424px; border-radius: 50px;  " />
-                <img src="/layouts/ig1.png" style="width: 275px; height: 290px; border-radius: 50px;" />
-                <img src="/layouts/brook.png" style="width: 275px; height: 424px; border-radius: 50px;  " />
-                <img src="/layouts/gracie.png" style="width: 275px; height: 424px; border-radius: 50px;" />
-                <img src="/layouts/ig2.png" style="width: 275px; height: 290px; border-radius: 50px;" />
-                <img src="/layouts/p1.png" style="width: 275px; height: 424px; border-radius: 50px;" />
+                <img src="/layouts/nepo.png" style="width: 275px; height: 424px; ;" />
+                <img src="/layouts/p3.png" style="width: 275px; height: 424px;  " />
+                <img src="/layouts/ig3.png" style="width: 275px; height: 290px;  " />
+                <img src="/layouts/maya.png" style="width: 275px; height: 424px; " />               
+                <img src="/layouts/p2.png" style="width: 275px; height: 424px; " />
+                <img src="/layouts/ig1.png" style="width: 275px; height: 290px; " />
+                <img src="/layouts/brook.png" style="width: 275px; height: 424px;  " />
+                <img src="/layouts/gracie.png" style="width: 275px; height: 424px; " />
+                <img src="/layouts/ig2.png" style="width: 275px; height: 290px; " />
+                <img src="/layouts/p1.png" style="width: 275px; height: 424px; " />
             </div>
             <div class="logos-slide">
-                <img src="/layouts/nepo.png" style="width: 275px; height: 424px; border-radius: 50px;" />
-                <img src="/layouts/p3.png" style="width: 275px; height: 424px; border-radius: 50px; " />
-                <img src="/layouts/ig3.png" style="width: 275px; height: 290px; border-radius: 50px; " />
-                <img src="/layouts/maya.png" style="width: 275px; height: 424px; border-radius: 50px;" />               
-                <img src="/layouts/p2.png" style="width: 275px; height: 424px; border-radius: 50px;  " />
-                <img src="/layouts/ig1.png" style="width: 275px; height: 290px; border-radius: 50px;" />
-                <img src="/layouts/brook.png" style="width: 275px; height: 424px; border-radius: 50px;  " />
-                <img src="/layouts/gracie.png" style="width: 275px; height: 424px; border-radius: 50px;" />
-                <img src="/layouts/ig2.png" style="width: 275px; height: 290px; border-radius: 50px;" />
-                <img src="/layouts/p1.png" style="width: 275px; height: 424px; border-radius: 50px;" />
+                <img src="/layouts/nepo.png" style="width: 275px; height: 424px; " />
+                <img src="/layouts/p3.png" style="width: 275px; height: 424px;  " />
+                <img src="/layouts/ig3.png" style="width: 275px; height: 290px;  " />
+                <img src="/layouts/maya.png" style="width: 275px; height: 424px; " />               
+                <img src="/layouts/p2.png" style="width: 275px; height: 424px;  " />
+                <img src="/layouts/ig1.png" style="width: 275px; height: 290px; " />
+                <img src="/layouts/brook.png" style="width: 275px; height: 424px;  " />
+                <img src="/layouts/gracie.png" style="width: 275px; height: 424px; " />
+                <img src="/layouts/ig2.png" style="width: 275px; height: 290px;" />
+                <img src="/layouts/p1.png" style="width: 275px; height: 424px; " />
             </div>
         </div>
         <div class="row">

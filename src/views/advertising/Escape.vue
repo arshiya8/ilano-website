@@ -71,16 +71,16 @@
         </div>
         <div class="logos">
             <div class="logos-slide">
-                <img src="/layouts/UI1.png" style="width: 260px; height: 432px; border-radius: 50px;  " />
-                <img src="/layouts/UI2.png" style="width: 260px; height: 432px; border-radius: 50px; " />
-                <img src="/layouts/TLEPosters.png" style="width: 400px; height: 300px; border-radius: 50px;" />
-                <img src="/layouts/UI3.png" style="width: 260px; height: 432px; border-radius: 50px; " />
+                <img src="/layouts/UI1.png" style="width: 260px; height: 432px;   " />
+                <img src="/layouts/UI2.png" style="width: 260px; height: 432px; " />
+                <img src="/layouts/TLEPosters.png" style="width: 400px; height: 300px; " />
+                <img src="/layouts/UI3.png" style="width: 260px; height: 432px; " />
             </div>
             <div class="logos-slide">
-                <img src="/layouts/UI1.png" style="width: 260px; height: 432px; border-radius: 50px;  " />
-                <img src="/layouts/UI2.png" style="width: 260px; height: 432px; border-radius: 50px; " />
-                <img src="/layouts/TLEPosters.png" style="width: 400px; height: 300px; border-radius: 50px;" />
-                <img src="/layouts/UI3.png" style="width: 260px; height: 432px; border-radius: 50px; " />
+                <img src="/layouts/UI1.png" style="width: 260px; height: 432px;  " />
+                <img src="/layouts/UI2.png" style="width: 260px; height: 432px; " />
+                <img src="/layouts/TLEPosters.png" style="width: 400px; height: 300px; " />
+                <img src="/layouts/UI3.png" style="width: 260px; height: 432px; " />
             </div>
         </div>
         <div class="row">

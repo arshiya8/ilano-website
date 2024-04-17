@@ -72,20 +72,20 @@
         </div>
         <div class="logos">
             <div class="logos-slide">
-                <img src="/layouts/g04.jpg" style="width: 275px; height: 424px; border-radius: 50px;  " />
-                <img src="/layouts/g03.png" style="width: 275px; height: 290px; border-radius: 50px; " />
-                <img src="/layouts/g02.jpg" style="width: 275px; height: 290px; border-radius: 50px;" />
-                <img src="/layouts/g06.jpg" style="width: 275px; height: 424px; border-radius: 50px; " />
-                <img src="/layouts/g01.jpg" style="width: 275px; height: 290px; border-radius: 50px;" />
-                <img src="/layouts/g05.jpg" style="width: 275px; height: 424px; border-radius: 50px;  " />
+                <img src="/layouts/g04.jpg" style="width: 275px; height: 424px;   " />
+                <img src="/layouts/g03.png" style="width: 275px; height: 290px;  " />
+                <img src="/layouts/g02.jpg" style="width: 275px; height: 290px; " />
+                <img src="/layouts/g06.jpg" style="width: 275px; height: 424px;  " />
+                <img src="/layouts/g01.jpg" style="width: 275px; height: 290px; " />
+                <img src="/layouts/g05.jpg" style="width: 275px; height: 424px;  " />
             </div>
             <div class="logos-slide">
-                <img src="/layouts/g04.jpg" style="width: 275px; height: 424px; border-radius: 50px;  " />
-                <img src="/layouts/g03.png" style="width: 275px; height: 290px; border-radius: 50px; " />
-                <img src="/layouts/g05.jpg" style="width: 275px; height: 290px; border-radius: 50px;" />
-                <img src="/layouts/g06.jpg" style="width: 275px; height: 424px; border-radius: 50px; " />
-                <img src="/layouts/g01.jpg" style="width: 275px; height: 290px; border-radius: 50px;" />
-                <img src="/layouts/g02.jpg" style="width: 275px; height: 424px; border-radius: 50px;  " />
+                <img src="/layouts/g04.jpg" style="width: 275px; height: 424px;  " />
+                <img src="/layouts/g03.png" style="width: 275px; height: 290px; " />
+                <img src="/layouts/g05.jpg" style="width: 275px; height: 290px; " />
+                <img src="/layouts/g06.jpg" style="width: 275px; height: 424px;  " />
+                <img src="/layouts/g01.jpg" style="width: 275px; height: 290px; " />
+                <img src="/layouts/g02.jpg" style="width: 275px; height: 424px;  " />
             </div>
         </div>
         <div class="row">

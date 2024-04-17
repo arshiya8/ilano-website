@@ -72,22 +72,22 @@
         </div>
         <div class="logos">
             <div class="logos-slide">
-                <img src="/layouts/r1.png" style="width: 345px; height: 230px; border-radius: 50px;" />
-                <img src="/layouts/r4.png" style="width: 275px; height: 340px; border-radius: 50px; " />
-                <img src="/layouts/r7.png" style="width: 385px; height: 260px; border-radius: 45px;" />
-                <img src="/layouts/r2.png" style="width: 345px; height: 230px; border-radius: 50px; " />
-                <img src="/layouts/r5.png" style="width: 275px; height: 340px; border-radius: 50px;" />
-                <img src="/layouts/r6.png" style="width: 385px; height: 260px; border-radius: 45px;  " />
-                <img src="/layouts/r3.png" style="width: 345px; height: 230px; border-radius: 50px;  " />
+                <img src="/layouts/r1.png" style="width: 345px; height: 230px; " />
+                <img src="/layouts/r4.png" style="width: 275px; height: 340px;  " />
+                <img src="/layouts/r7.png" style="width: 385px; height: 260px;" />
+                <img src="/layouts/r2.png" style="width: 345px; height: 230px; " />
+                <img src="/layouts/r5.png" style="width: 275px; height: 340px;" />
+                <img src="/layouts/r6.png" style="width: 385px; height: 260px;  " />
+                <img src="/layouts/r3.png" style="width: 345px; height: 230px;  " />
             </div>
             <div class="logos-slide">
-                <img src="/layouts/r1.png" style="width: 345px; height: 230px; border-radius: 50px;" />
-                <img src="/layouts/r4.png" style="width: 275px; height: 340px; border-radius: 50px; " />
-                <img src="/layouts/r7.png" style="width: 385px; height: 260px; border-radius: 45px;" />
-                <img src="/layouts/r2.png" style="width: 345px; height: 230px; border-radius: 50px; " />
-                <img src="/layouts/r5.png" style="width: 275px; height: 340px; border-radius: 50px;" />
-                <img src="/layouts/r6.png" style="width: 385px; height: 260px; border-radius: 45px;  " />
-                <img src="/layouts/r3.png" style="width: 345px; height: 230px; border-radius: 50px;  " />
+                <img src="/layouts/r1.png" style="width: 345px; height: 230px; " />
+                <img src="/layouts/r4.png" style="width: 275px; height: 340px;  " />
+                <img src="/layouts/r7.png" style="width: 385px; height: 260px; " />
+                <img src="/layouts/r2.png" style="width: 345px; height: 230px; " />
+                <img src="/layouts/r5.png" style="width: 275px; height: 340px; " />
+                <img src="/layouts/r6.png" style="width: 385px; height: 260px; " />
+                <img src="/layouts/r3.png" style="width: 345px; height: 230px; " />
             </div>
         </div>
         <div class="row">

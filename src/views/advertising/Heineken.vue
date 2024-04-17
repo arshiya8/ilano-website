@@ -69,16 +69,16 @@
         </div>
         <div class="logos">
             <div class="logos-slide">
-                <img src="/layouts/h1.png" style="width: 275px; height: 275px; border-radius: 50px;  " />
-                <img src="/layouts/h2.png" style="width: 275px; height: 275px; border-radius: 50px; " />
-                <img src="/layouts/h4.png" style="width: 725px; height: 375px; border-radius: 50px;" />
-                <img src="/layouts/h3.png" style="width: 275px; height: 275px; border-radius: 50px; " />
+                <img src="/layouts/h1.png" style="width: 275px; height: 275px; " />
+                <img src="/layouts/h2.png" style="width: 275px; height: 275px;  " />
+                <img src="/layouts/h4.png" style="width: 725px; height: 375px; " />
+                <img src="/layouts/h3.png" style="width: 275px; height: 275px;  " />
             </div>
             <div class="logos-slide">
-                <img src="/layouts/h1.png" style="width: 275px; height: 275px; border-radius: 50px;  " />
-                <img src="/layouts/h2.png" style="width: 275px; height: 275px; border-radius: 50px; " />
-                <img src="/layouts/h4.png" style="width: 725px; height: 375px; border-radius: 50px;" />
-                <img src="/layouts/h3.png" style="width: 275px; height: 275px; border-radius: 50px; " />
+                <img src="/layouts/h1.png" style="width: 275px; height: 275px;  " />
+                <img src="/layouts/h2.png" style="width: 275px; height: 275px; " />
+                <img src="/layouts/h4.png" style="width: 725px; height: 375px;" />
+                <img src="/layouts/h3.png" style="width: 275px; height: 275px; " />
             </div>
         </div>
         <div class="row">
