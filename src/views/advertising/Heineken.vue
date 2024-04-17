@@ -48,7 +48,7 @@
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 
     <div class="bg-white container-fluid text-black"
-        style="border-top-right-radius: 154px; border-top-left-radius: 154px;">
+    style="border-top-right-radius: 85px; border-top-left-radius: 85px;">
         <div style="font-family: 'Mohave', sans-serif; font-size: 5rem; padding-top: 50px; text-align: center;">
             ASSETS
         </div>
