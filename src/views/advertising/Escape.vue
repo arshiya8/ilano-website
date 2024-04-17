@@ -4,13 +4,13 @@
 
     <div class="container-fluid text-center lh-sm" style="margin-top: 200px; margin-bottom: 250px; ">
         <div style="font-family: 'Montserrat', sans-serif; font-size: 3rem;">
+            Sky Entertainment
+        </div>
+        <div style="font-family: 'Mohave', sans-serif; font-size: 6rem;">
             The Last Escape
         </div>
-        <div style="font-family: 'Mohave', sans-serif; font-size: 5rem;">
-            eBAY Your Privilege
-        </div>
-        <div style="font-family: 'Montserrat', sans-serif; font-size: 1.5rem;">
-            Risk your parent's wrath for a good cause.
+        <div style="font-family: 'Montserrat', sans-serif; font-size: 2rem;">
+            Discover New Cravings
         </div>
         <button type="button" class="btn btn-outline-light rounded-pill"
             style="margin-top: 20px; font-family: 'Andale Mono', sans-serif; padding: 5px 10px; font-size: medium;">
@@ -110,7 +110,7 @@
                     <br>
                     Art Director: Danielle Ilano
                     <br>
-                    Copywriters: Danielle Ilano, Abigail Nixon
+                    Copywriters: Danielle Ilano
                 </div>
             </div>
             <div class="text-left"

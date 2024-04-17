@@ -7,10 +7,10 @@
             eBay
         </div>
         <div style="font-family: 'Mohave', sans-serif; font-size: 5.5rem;">
-            Sell What You Read
+            eBay Your Privilege
         </div>
         <div style="font-family: 'Montserrat', sans-serif; font-size: 1.5rem;">
-            Risk your parent's wrath for a good cause.
+            Risk Their Wrath for a cause. 
         </div>
         <button type="button" class="btn btn-outline-light rounded-pill"
             style="margin-top: 20px; font-family: 'Andale Mono', sans-serif; padding: 5px 10px; font-size: medium;">
@@ -37,7 +37,8 @@
                 02 | DESCRIPTION
             </div>
             <div style="font-family: 'Montserrat', sans-serif; font-weight: 600; font-size: 2rem;">
-                Aesthetics started with dreamers, so let's go back
+               Nepo babies are controversially one of the <br/> most talked about topics for the Gen Z because <br/>
+               of their cheat code to success. So, we turned <br/> their attention towards helping UK's <br/> homeless problem.
             </div>
         </div>
     </div>
@@ -70,20 +71,28 @@
         </div>
         <div class="logos">
             <div class="logos-slide">
-                <img src="/layouts/p1.png" style="width: 275px; height: 424px; border-radius: 50px;" />
-                <img src="/layouts/ig3.png" style="width: 275px; height: 290px; border-radius: 50px; " />
-                <img src="/layouts/ig1.png" style="width: 275px; height: 290px; border-radius: 50px;" />
+                <img src="/layouts/nepo.png" style="width: 275px; height: 424px; border-radius: 50px;" />
                 <img src="/layouts/p3.png" style="width: 275px; height: 424px; border-radius: 50px; " />
-                <img src="/layouts/ig2.png" style="width: 275px; height: 290px; border-radius: 50px;" />
+                <img src="/layouts/ig3.png" style="width: 275px; height: 290px; border-radius: 50px; " />
+                <img src="/layouts/maya.png" style="width: 275px; height: 424px; border-radius: 50px;" />               
                 <img src="/layouts/p2.png" style="width: 275px; height: 424px; border-radius: 50px;  " />
+                <img src="/layouts/ig1.png" style="width: 275px; height: 290px; border-radius: 50px;" />
+                <img src="/layouts/brook.png" style="width: 275px; height: 424px; border-radius: 50px;  " />
+                <img src="/layouts/gracie.png" style="width: 275px; height: 424px; border-radius: 50px;" />
+                <img src="/layouts/ig2.png" style="width: 275px; height: 290px; border-radius: 50px;" />
+                <img src="/layouts/p1.png" style="width: 275px; height: 424px; border-radius: 50px;" />
             </div>
             <div class="logos-slide">
-                <img src="/layouts/p1.png" style="width: 275px; height: 424px; border-radius: 50px;  " />
-                <img src="/layouts/ig3.png" style="width: 275px; height: 290px; border-radius: 50px; " />
-                <img src="/layouts/ig1.png" style="width: 275px; height: 290px; border-radius: 50px;" />
+                <img src="/layouts/nepo.png" style="width: 275px; height: 424px; border-radius: 50px;" />
                 <img src="/layouts/p3.png" style="width: 275px; height: 424px; border-radius: 50px; " />
-                <img src="/layouts/ig2.png" style="width: 275px; height: 290px; border-radius: 50px;" />
+                <img src="/layouts/ig3.png" style="width: 275px; height: 290px; border-radius: 50px; " />
+                <img src="/layouts/maya.png" style="width: 275px; height: 424px; border-radius: 50px;" />               
                 <img src="/layouts/p2.png" style="width: 275px; height: 424px; border-radius: 50px;  " />
+                <img src="/layouts/ig1.png" style="width: 275px; height: 290px; border-radius: 50px;" />
+                <img src="/layouts/brook.png" style="width: 275px; height: 424px; border-radius: 50px;  " />
+                <img src="/layouts/gracie.png" style="width: 275px; height: 424px; border-radius: 50px;" />
+                <img src="/layouts/ig2.png" style="width: 275px; height: 290px; border-radius: 50px;" />
+                <img src="/layouts/p1.png" style="width: 275px; height: 424px; border-radius: 50px;" />
             </div>
         </div>
         <div class="row">

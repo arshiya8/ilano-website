@@ -4,13 +4,13 @@
 
     <div class="container-fluid text-center lh-sm" style="margin-top: 200px; margin-bottom: 250px; ">
         <div style="font-family: 'Montserrat', sans-serif; font-size: 3rem;">
-            GymFace
+            Gymshark
         </div>
-        <div style="font-family: 'Mohave', sans-serif; font-size: 5rem;">
-            eBAY Your Privilege
+        <div style="font-family: 'Mohave', sans-serif; font-size: 7.5rem;">
+            #Gymface
         </div>
-        <div style="font-family: 'Montserrat', sans-serif; font-size: 1.5rem;">
-            Risk your parent's wrath for a good cause.
+        <div style="font-family: 'Montserrat', sans-serif; font-size: 1.9rem;">
+           Make a Face to Flex Your Gains
         </div>
         <button type="button" class="btn btn-outline-light rounded-pill"
             style="margin-top: 20px; font-family: 'Andale Mono', sans-serif; padding: 5px 10px; font-size: medium;">
@@ -35,11 +35,11 @@
             <div style="font-family: 'hey-eloise', sans-serif; font-weight: 400; font-style: normal; font-size: 3rem; ">
                 02 | DESCRIPTION
             </div>
-            <div style="font-family: 'Montserrat', sans-serif; font-weight: 600; font-size: 1.7rem;">
-                We want to challenge the gym culture of having <br>to look perfect while training your body.
-                <br>#GymFace is a social movement that encourages people <br>to make ugly faces to abandon their
-                insecurities<br>
-                in the gym and practice confidence instead.
+            <div style="font-family: 'Montserrat', sans-serif; font-weight: 600; font-size: 1.9rem;">
+                We want to challenge the gym culture of having to <br>look perfect while training your body.
+                #GymFace is <br> a social movement that encourages people to  make<br> ugly faces to abandon their
+                insecurities
+                in the gym <br>and practice confidence instead.
 
             </div>
         </div>
@@ -116,7 +116,7 @@
                     <br>
                     Art Director: Danielle Ilano
                     <br>
-                    Copywriters: Danielle Ilano, Abigail Nixon
+                    Copywriters: Danielle Ilano
                 </div>
             </div>
             <div class="text-left"

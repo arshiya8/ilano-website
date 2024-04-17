@@ -127,7 +127,7 @@ div.container-fluid {
 
     <div class="container-fluid">
         <div class="text-center text-white"
-            style="margin-top: 180px; margin-bottom: 200px; font-family: 'Permanent Marker', cursive; font-weight: 400; font-style: normal; font-size: 3rem;">
+            style="margin-top: 180px; margin-bottom: 200px; font-family: 'Mohave', sans-serif;font-size: 5rem;">
             IDEAS THAT HIT
         </div>
 

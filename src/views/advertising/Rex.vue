@@ -4,13 +4,13 @@
 
     <div class="container-fluid text-center lh-sm" style="margin-top: 200px; margin-bottom: 250px; ">
         <div style="font-family: 'Montserrat', sans-serif; font-size: 3rem;">
-            Operation: 
+            Kraft Mac and Cheese 
         </div>
-        <div style="font-family: 'Mohave', sans-serif; font-size: 5.5rem;">
-            Save Rex
+        <div style="font-family: 'Mohave', sans-serif; font-size: 6rem;">
+            Operation: Save Rex
         </div>
-        <div style="font-family: 'Montserrat', sans-serif; font-size: 1.5rem;">
-            Risk your parent's wrath for a good cause.
+        <div style="font-family: 'Montserrat', sans-serif; font-size: 2rem;">
+            Discover your Wildest Cravings
         </div>
         <button type="button" class="btn btn-outline-light rounded-pill"
             style="margin-top: 20px; font-family: 'Andale Mono', sans-serif; padding: 5px 10px; font-size: medium;">
@@ -23,8 +23,8 @@
                 01 | BRIEF
             </div>
             <div style="font-family: 'Montserrat', sans-serif; font-weight: 600; font-size: 2rem;">
-                Create a campaign that Is culturally relevant <br>and captures the attention of older Gen Z  <br>
-                and younger millennials to choose <br>  Kraft Mac & Cheese as their first choice for food comfort.
+                Create a campaign that Is culturally relevant and <br> captures the attention of older Gen Z  
+                and younger <br> millennials to choose   Kraft Mac & Cheese as their <br> first choice for food comfort.
                  
                
             </div>
@@ -36,9 +36,10 @@
             <div style="font-family: 'hey-eloise', sans-serif; font-weight: 400; font-style: normal; font-size: 3rem; ">
                 02 | DESCRIPTION
             </div>
-            <div style="font-family: 'Montserrat', sans-serif; font-weight: 600; font-size: 2rem;">
-                We brought back the brand’s beloved mascot,<br>  Cheesasaurus Rex, and encouraged fans to send <br>in their personal 
-                twisted recipes to help evolve him into<br> the modern day mascot befitting<br> the brand’s values and new direction. 
+            <div style="font-family: 'Montserrat', sans-serif; font-weight: 600; font-size: 1.8rem;">
+                We brought back the brand’s beloved mascot,<br>  Cheesasaurus Rex, and encouraged fans to send in their<br> personal 
+                twisted recipes to help evolve him into the <br>modern day mascot befitting the brand’s values<br> instead of the 
+                dinosaur Boomer he used to be. 
             </div>
         </div>
     </div>
@@ -115,18 +116,18 @@
                 <div style="font-family: 'Montserrat', sans-serif; font-size: 0.9rem;">
                     Made at Nanyang Academy of Fine Arts
                     <br>
-                    2023
+                    2024
                     <br>
-                    Art Director: Danielle Ilano
+                    Art Director: Chan Li Ting
                     <br>
-                    Copywriters: Danielle Ilano, Abigail Nixon
+                    Copywriters: Danielle Ilano
                 </div>
             </div>
             <div class="text-left"
                 style="font-family: 'Mohave', sans-serif; font-size: 1.5rem; font-weight: lighter; padding-top: 30px; padding-bottom: 60px;">
                 Role
                 <div style="font-family: 'Montserrat', sans-serif; font-size: 0.9rem;">
-                    Copy, Art, Concept, Video
+                    Concept, Copy, 3D Art, Video
                 </div>
             </div>
         </div>

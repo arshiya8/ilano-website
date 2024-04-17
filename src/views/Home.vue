@@ -63,7 +63,7 @@ Do an horizontal flip when you move the mouse over the flip box container
 /* Style the front side (fallback if image is missing) */
 .flip-card-front {
   color: black;
-  border: 1px solid grey;
+  /* border: 1px solid grey; */
 }
 
 /* Style the back side */

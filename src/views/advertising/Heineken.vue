@@ -7,10 +7,10 @@
             Heineken
         </div>
         <div style="font-family: 'Mohave', sans-serif; font-size: 5rem;">
-            eBAY Your Privilege
+            Heineken Matched
         </div>
         <div style="font-family: 'Montserrat', sans-serif; font-size: 1.5rem;">
-            Risk your parent's wrath for a good cause.
+           Have you been matched?
         </div>
         <button type="button" class="btn btn-outline-light rounded-pill"
             style="margin-top: 20px; font-family: 'Andale Mono', sans-serif; padding: 5px 10px; font-size: medium;">
@@ -107,16 +107,16 @@
                     <br>
                     2023
                     <br>
-                    Art Director: Danielle Ilano
+                    Art Director: Chan Li Ting, Danielle Ilano
                     <br>
-                    Copywriters: Danielle Ilano, Abigail Nixon
+                    Copywriters: Danielle Ilano
                 </div>
             </div>
             <div class="text-left"
                 style="font-family: 'Mohave', sans-serif; font-size: 1.5rem; font-weight: lighter; padding-top: 30px; padding-bottom: 60px;">
                 Role
                 <div style="font-family: 'Montserrat', sans-serif; font-size: 0.9rem;">
-                    Copy, Art, Concept, Video
+                    Copy, Art, Concept
                 </div>
             </div>
         </div>
