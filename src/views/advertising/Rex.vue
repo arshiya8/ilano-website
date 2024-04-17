@@ -22,7 +22,7 @@
             <div style="font-family: 'hey-eloise', sans-serif; font-weight: 400; font-style: normal; font-size: 3rem; ">
                 01 | BRIEF
             </div>
-            <div style="font-family: 'Montserrat', sans-serif; font-weight: 600; font-size: 2rem;">
+            <div style="font-family: 'Montserrat', sans-serif; font-weight: 600; font-size: 2.5rem;">
                 Create a campaign that Is culturally relevant and <br> captures the attention of older Gen Z  
                 and younger <br> millennials to choose   Kraft Mac & Cheese as their <br> first choice for food comfort.
                  
@@ -36,7 +36,7 @@
             <div style="font-family: 'hey-eloise', sans-serif; font-weight: 400; font-style: normal; font-size: 3rem; ">
                 02 | DESCRIPTION
             </div>
-            <div style="font-family: 'Montserrat', sans-serif; font-weight: 600; font-size: 1.8rem;">
+            <div style="font-family: 'Montserrat', sans-serif; font-weight: 600; font-size: 2.2rem;">
                 We brought back the brand’s beloved mascot,<br>  Cheesasaurus Rex, and encouraged fans to send in their<br> personal 
                 twisted recipes to help evolve him into the <br>modern day mascot befitting the brand’s values<br> instead of the 
                 dinosaur Boomer he used to be. 

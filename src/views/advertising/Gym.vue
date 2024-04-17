@@ -22,7 +22,7 @@
             <div style="font-family: 'hey-eloise', sans-serif; font-weight: 400; font-style: normal; font-size: 3rem; ">
                 01 | BRIEF
             </div>
-            <div style="font-family: 'Montserrat', sans-serif; font-weight: 600; font-size: 2rem;">
+            <div style="font-family: 'Montserrat', sans-serif; font-weight: 600; font-size: 2.5rem;">
                 Gymshark wants to increase brand awareness to <br>18 - 21 year olds who are committed to becoming <br>
                 the best version of themselves.
 
@@ -35,7 +35,7 @@
             <div style="font-family: 'hey-eloise', sans-serif; font-weight: 400; font-style: normal; font-size: 3rem; ">
                 02 | DESCRIPTION
             </div>
-            <div style="font-family: 'Montserrat', sans-serif; font-weight: 600; font-size: 1.9rem;">
+            <div style="font-family: 'Montserrat', sans-serif; font-weight: 600; font-size: 2.3rem;">
                 We want to challenge the gym culture of having to <br>look perfect while training your body.
                 #GymFace is <br> a social movement that encourages people to  make<br> ugly faces to abandon their
                 insecurities

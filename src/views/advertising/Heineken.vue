@@ -3,17 +3,17 @@
     <Navbar />
 
     <div class="container-fluid text-center lh-sm" style="margin-top: 200px; margin-bottom: 250px; ">
-        <div style="font-family: 'Montserrat', sans-serif; font-size: 3rem;">
+        <div style="font-family: 'Montserrat', sans-serif; font-size: 4rem;">
             Heineken
         </div>
-        <div style="font-family: 'Mohave', sans-serif; font-size: 5rem;">
+        <div style="font-family: 'Mohave', sans-serif; font-size: 6rem;">
             Heineken Matched
         </div>
-        <div style="font-family: 'Montserrat', sans-serif; font-size: 1.5rem;">
+        <div style="font-family: 'Montserrat', sans-serif; font-size: 2.5rem;">
            Have you been matched?
         </div>
         <button type="button" class="btn btn-outline-light rounded-pill"
-            style="margin-top: 20px; font-family: 'Andale Mono', sans-serif; padding: 5px 10px; font-size: medium;">
+            style="margin-top: 20px; font-family: 'Andale Mono', sans-serif; padding: 15px 20px; font-size: medium;">
             Digital, OOH</button>
     </div>
 
@@ -22,7 +22,7 @@
             <div style="font-family: 'hey-eloise', sans-serif; font-weight: 400; font-style: normal; font-size: 3rem; ">
                 01 | BRIEF
             </div>
-            <div style="font-family: 'Montserrat', sans-serif; font-weight: 600; font-size: 2rem;">
+            <div style="font-family: 'Montserrat', sans-serif; font-weight: 600; font-size: 2.5rem;">
                 Heineken wants to spark fresh connections, and <br> culturally connect across boundaries and borders
                 <br>
                 to make a fresher world and inspire togetherness <br> and joy.
@@ -30,18 +30,18 @@
         </div>
     </div>
 
-    <div class="flex justify-content-center align-items-center" style="margin: 80px 0px">
+    <div class="flex justify-content-center align-items-center" style="margin: 80px 0px;">
         <div class="text-left lh-sm">
             <div style="font-family: 'hey-eloise', sans-serif; font-weight: 400; font-style: normal; font-size: 3rem; ">
                 02 | DESCRIPTION
             </div>
-            <div style="font-family: 'Montserrat', sans-serif; font-weight: 600; font-size: 1.9rem;">
+            <div style="font-family: 'Montserrat', sans-serif; font-weight: 600; font-size: 2.4rem;">
                 Combining Personality Tests and games, Heineken <br> Matched is a Truth, Drink or Dare
                 game that reveals <br> people’s compatibilities using prompts.
             </div>
         </div>
     </div>
-
+    <div style="margin: 120px 0px;"><br/></div>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet"

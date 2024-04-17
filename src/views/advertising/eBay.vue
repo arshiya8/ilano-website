@@ -22,7 +22,7 @@
             <div style="font-family: 'hey-eloise', sans-serif; font-weight: 400; font-style: normal; font-size: 3rem; ">
                 01 | BRIEF
             </div>
-            <div style="font-family: 'Montserrat', sans-serif; font-weight: 600; font-size: 2rem;">
+            <div style="font-family: 'Montserrat', sans-serif; font-weight: 600; font-size: 2.6rem;">
                 With the UK being the home of eBay's biggest <br>supporters, eBay wants Gen Z in the UK to sell <br>
                 their
                 preloved items
@@ -36,7 +36,7 @@
             <div style="font-family: 'hey-eloise', sans-serif; font-weight: 400; font-style: normal; font-size: 3rem; ">
                 02 | DESCRIPTION
             </div>
-            <div style="font-family: 'Montserrat', sans-serif; font-weight: 600; font-size: 2rem;">
+            <div style="font-family: 'Montserrat', sans-serif; font-weight: 600; font-size: 2.5rem;">
                Nepo babies are controversially one of the <br/> most talked about topics for the Gen Z because <br/>
                of their cheat code to success. So, we turned <br/> their attention towards helping UK's <br/> homeless problem.
             </div>

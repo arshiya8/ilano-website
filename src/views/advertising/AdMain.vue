@@ -127,13 +127,13 @@ div.container-fluid {
 
     <div class="container-fluid">
         <div class="text-center text-white"
-            style="margin-top: 180px; margin-bottom: 200px; font-family: 'Mohave', sans-serif;font-size: 5rem;">
+            style="margin-top: 210px; margin-bottom: 250px; font-family: 'Mohave', sans-serif;font-size: 5rem;">
             IDEAS THAT HIT
         </div>
 
         <div class="bg-white text-black" style="border-top-right-radius: 85px; border-top-left-radius: 85px;">
             <div
-                style="font-family: 'Mohave', sans-serif; font-size: 5rem; padding-top: 90px; padding-left: 50px; padding-right:50px;">
+                style="font-family: 'Mohave', sans-serif; font-size: 4rem; padding-top: 90px; padding-left: 90px; padding-right:50px;">
                 ADVERTISING </div>
 
             <!-- <div class="container-fluid mx-3"> -->

@@ -128,13 +128,13 @@ div.container-fluid {
 
     <div class="container-fluid">
         <div class="text-center text-white"
-            style="margin-top: 180px; margin-bottom: 200px; font-family: 'Mohave', sans-serif; font-size: 5rem;">
+            style="margin-top: 210px; margin-bottom: 250px; font-family: 'Mohave', sans-serif; font-size: 5rem;">
             DESIGNER DOING GRAPHIC THINGS
         </div>
 
         <div class="bg-white text-black" style="border-top-right-radius: 85px; border-top-left-radius: 85px;">
             <div
-                style="font-family: 'Mohave', sans-serif; font-size: 5rem; padding-top: 90px; padding-left: 50px; padding-right:50px;">
+                style="font-family: 'Mohave', sans-serif; font-size: 5rem; padding-top: 90px; padding-left: 80px; padding-right:50px;">
                 PRINT </div>
 
             <!-- <div class="container-fluid mx-3"> -->
@@ -255,28 +255,28 @@ div.container-fluid {
                
             </Galleria>
         </Dialog>
-        <Dialog v-model:visible="artful" modal :style="{ width: '55vw'}"
+        <Dialog v-model:visible="artful" modal :style="{ width: '55vw', height: '200vh'}"
             :breakpoints="{ '1199px': '75vw', '575px': '90vw' }">
             <div class="d-flex justify-content-center align-items-center">
-                <img src="/layouts/art.jpg" style="width: 350px; height: 500px;"/> 
+                <img src="/layouts/art.jpg" style="width: 350px; height: 550px;"/> 
                 
             </div>
             <p class="text-center" style="margin-top: 20px; margin-bottom: 0px; font-family: Georgia, 'Times New Roman', Times, serif">The Artful Dodger (2024)</p>
             
         </Dialog>
-        <Dialog v-model:visible="hunger" modal :style="{ width: '55vw'}"
+        <Dialog v-model:visible="hunger" modal :style="{ width: '55vw', height: '200vh'}"
             :breakpoints="{ '1199px': '75vw', '575px': '90vw' }">
             <div class="d-flex justify-content-center align-items-center">
-                <img src="/layouts/hunger.jpg" style="width: 350px; height: 500px;"/> 
+                <img src="/layouts/hunger.jpg" style="width: 350px; height: 550px;"/> 
                 
             </div>
             <p class="text-center" style="margin-top: 20px; margin-bottom: 0px; font-family: Georgia, 'Times New Roman', Times, serif">The Ballad of Songbirds & Snakes</p>
             
         </Dialog>
-        <Dialog v-model:visible="murder" modal :style="{ width: '55vw'}"
+        <Dialog v-model:visible="murder" modal :style="{ width: '55vw', height: '200vh'}"
             :breakpoints="{ '1199px': '75vw', '575px': '90vw' }">
             <div class="d-flex justify-content-center align-items-center">
-                <img src="/layouts/build.jpg" style="width: 350px; height: 500px;"/> 
+                <img src="/layouts/build.jpg" style="width: 350px; height: 550px;"/> 
                 
             </div>
             <p class="text-center" style="margin-top: 20px; margin-bottom: 0px; font-family:Georgia, 'Times New Roman', Times, serif">Only Murders in the Building</p>

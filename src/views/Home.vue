@@ -108,22 +108,22 @@ Do an horizontal flip when you move the mouse over the flip box container
 
   <div class="container-fluid">
     <div class="text-center text-white"
-      style="margin-top: 80px; margin-bottom: 30px; font-family: 'Mohave', sans-serif; font-size: 3rem;">
+      style="margin-top: 150px; margin-bottom: 30px; font-family: 'Mohave', sans-serif; font-size: 4rem;">
       QUIET OFFLINE, <br />
       BABBLES ONLINE,<br />
       <div style="font-family: 'hey-eloise', sans-serif;
         font-weight: 400;
-        font-style: normal; font-size: 4rem;">
+        font-style: normal; font-size: 5rem;">
         RHYMES TO DESIGN.
       </div>
     </div>
 
-    <div class="text-center text-white" style="font-family: 'Courier New', Courier, monospace; margin-bottom: 120px;">
+    <div class="text-center text-white" style="font-family: 'Courier New', Courier, monospace; margin-bottom: 180px;">
       Hi, I'm Danielle :)
     </div>
     <div class="bg-white text-black" style="border-top-right-radius: 85px; border-top-left-radius: 85px;">
       <div
-        style="font-family: 'Mohave', sans-serif; font-size: 5rem; padding-top: 90px; padding-left: 50px; padding-right:50px;">
+        style="font-family: 'Mohave', sans-serif; font-size: 5rem; padding-top: 90px; padding-left: 70px; padding-right:50px;">
         WORKS </div>
 
       <!-- <div class="container-fluid mx-3"> -->
