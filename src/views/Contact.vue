@@ -3,7 +3,7 @@
     <Navbar />
 
     <div class="grid" style="margin-bottom: 20px;">
-        <div class="col" style="margin-top: 30px;  padding-left: 160px;">
+        <div class="col" style="margin-top: 30px;  padding-left: 140px;">
             <div class="container" style=" font-family: 'Mohave', sans-serif; font-size: 4rem;">
                 <div class="lh-sm">
                     Like what you see?
