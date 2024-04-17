@@ -3,16 +3,16 @@
     <Navbar />
 
     <div class="grid" style="margin-bottom: 20px;">
-        <div class="col" style="margin-top: 30px; margin-left: 60px;">
-            <div class="container"
-                style=" font-family: 'Mohave', sans-serif; font-size: 4rem;">
+        <div class="col" style="margin-top: 30px;  padding-left: 160px;">
+            <div class="container" style=" font-family: 'Mohave', sans-serif; font-size: 4rem;">
                 <div class="lh-sm">
                     Like what you see?
-                <div style="font-family: 'hey-eloise', sans-serif; font-weight: 400; font-style: normal; font-size: 2rem; text-align: start;">
-                    *Wink Wink* </div>
+                    <div
+                        style="font-family: 'hey-eloise', sans-serif; font-weight: 400; font-style: normal; font-size: 2rem; text-align: start;">
+                        *Wink Wink* </div>
                 </div>
-                
-                  
+
+
                 <div style="font-family: 'Montserrat', sans-serif; font-size: medium;margin-top: 30px;">
                     <strong>Here are some direct ways to contact me.
                     </strong><br>
@@ -33,14 +33,14 @@
                     </strong><br>
                     @lostinhelle
                 </div>
-                
+
             </div>
-            
+
 
 
         </div>
         <div class="col" style="display: flex;
-    justify-content: center;
+    justify-content:baseline;
     align-items: center;">
             <img src="/layouts/contact.gif" style="width: 480px; height: 265px; border-radius: 41px; " />
         </div>
@@ -52,7 +52,7 @@
         </div>
     </div>
 </template>
-  
+
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Mohave:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
@@ -81,9 +81,8 @@ body {
     font-size: smaller;
 }
 </style>
-  
+
 <script setup>
 import Navbar from '../components/Navbar.vue';
 import MouseFollower from '../components/MouseFollower.vue';
 </script>
-  
