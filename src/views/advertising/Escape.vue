@@ -125,11 +125,11 @@
     </div>
     <div class="footer7">
         <div class="right2">
-            <router-link :to="{ name: 'adMain' }">
+            <router-link :to="{ name: 'music' }">
 
                 <p
                     style="font-family: 'hey-eloise', sans-serif; font-weight: 400; font-style: normal; font-size: 2rem; display: inline-block; vertical-align: sub;color: white;">
-                    Back to advertising</p>
+                    Next Work</p>
                 <img src="/layouts/right.png" width="50px" height="50px"
                     style="display: inline-block; vertical-align: middle;" />
             </router-link>

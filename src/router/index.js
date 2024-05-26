@@ -53,6 +53,11 @@ const router = createRouter({
       component: () => import('../views/advertising/Escape.vue')
     },
     {
+      path: '/music',
+      name: 'music',
+      component: () => import('../views/advertising/Music.vue')
+    },
+    {
       path: '/adMain',
       name: 'adMain',
       component: () => import('../views/advertising/AdMain.vue')
