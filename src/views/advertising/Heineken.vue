@@ -67,7 +67,7 @@
                 <hr>
             </div>
         </div>
-        <div class="logos">
+        <!-- <div class="logos">
             <div class="logos-slide">
                 <img src="/layouts/h1.png" style="width: 275px; height: 275px; " />
                 <img src="/layouts/h2.png" style="width: 275px; height: 275px;  " />
@@ -80,7 +80,27 @@
                 <img src="/layouts/h4.png" style="width: 725px; height: 375px;" />
                 <img src="/layouts/h3.png" style="width: 275px; height: 275px; " />
             </div>
-        </div>
+        </div> -->
+
+        <swiper :effect="'coverflow'" :grabCursor="true" :centeredSlides="true" :slidesPerView="'auto'"
+            :coverflowEffect="{
+            rotate: 15,
+            stretch: 0,
+            depth: 300,
+            modifier: 1,
+            slideShadows: false,
+        }" loop="true" :modules="modules" :spaceBetween="30" :autoplay="{
+            delay: 2500,
+            disableOnInteraction: false,
+        }" :pagination="{
+            clickable: true,
+        }" :navigation="false" class="mySwiper">
+            <swiper-slide>  <img src="/layouts/h1.png" style="width: 275px; height: 275px;  " /> </swiper-slide>
+            <swiper-slide>  <img src="/layouts/h4.png" style="width: 525px; height: 275px;" /> </swiper-slide>
+            <swiper-slide> <img src="/layouts/h3.png" style="width: 275px; height: 275px; " /></swiper-slide>
+            <swiper-slide> <img src="/layouts/h2.png" style="width: 275px; height: 275px; " /> </swiper-slide>
+        </swiper>
+
         <div class="row">
             <div class="col-12">
                 <hr>
@@ -149,6 +169,20 @@
 <script setup>
 import MouseFollower from '../../components/MouseFollower.vue';
 import Navbar from '../../components/Navbar.vue';
+// Import Swiper Vue.js components
+import { Swiper, SwiperSlide } from 'swiper/vue';
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/effect-coverflow';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+
+// import required modules
+import { EffectCoverflow, Autoplay, Pagination, Navigation } from 'swiper/modules';
+
+// Export variables needed in the template
+const modules = [EffectCoverflow, Autoplay, Pagination, Navigation];
 
 </script>
 <style>
@@ -162,8 +196,27 @@ body {
     background-color: #121212;
     color: white;
 }
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: 100%;
+}
 
-@keyframes slide {
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, transparent, #0002, #0004);
+}
+
+/* @keyframes slide {
     from {
         transform: translateX(0);
     }
@@ -191,9 +244,9 @@ body {
 }
 
 .logos-slide img {
-    /* height: 50px; */
+    /* height: 50px; 
     margin: 0 40px;
-}
+} */
 
 
 .footer7 {

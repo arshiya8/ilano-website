@@ -249,7 +249,7 @@ div.container-fluid {
                                         The Last Escape
                                     </div>
                                     <div class="hover-button" style="font-family: 'Anton', sans-serif;">
-                                        <router-link :to="{name: 'eBay'}"><button type="button" class="btn btn-light rounded-pill" style="font-size: 1.9rem; padding: 0 30px;">DISCOVER</button></router-link>
+                                        <router-link :to="{name: 'music'}"><button type="button" class="btn btn-light rounded-pill" style="font-size: 1.9rem; padding: 0 30px;">DISCOVER</button></router-link>
                                     </div>
                                 </div>
                             </div>

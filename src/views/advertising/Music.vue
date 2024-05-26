@@ -23,11 +23,12 @@
                 01 | BRIEF
             </div>
             <div style="font-family: 'Montserrat', sans-serif; font-weight: 600; font-size: 2rem;">
-                Create a campaign within Spotify that bonds people <br> together and transcends the musical genres while using
+                Create a campaign within Spotify that bonds people <br> together and transcends the musical genres while
+                using
                 <br>
                 songs and playlists from the app.
-                
-                
+
+
             </div>
         </div>
     </div>
@@ -38,24 +39,25 @@
                 02 | DESCRIPTION
             </div>
             <div style="font-family: 'Montserrat', sans-serif; font-weight: 600; font-size: 2.1rem;">
-                Spotify gives the spotlight to LGBTQ and turns <br> sex-themed playlists into a way to learn about Queer <br> 
-                Exclusive Sex Ed tips with a twist; you get the steamy <br> songs, but only if our ad is finished 
+                Spotify gives the spotlight to LGBTQ and turns <br> sex-themed playlists into a way to learn about Queer
+                <br>
+                Exclusive Sex Ed tips with a twist; you get the steamy <br> songs, but only if our ad is finished
             </div>
         </div>
     </div>
 
-    <div style="margin: 120px 0px;"><br/></div>
+    <div style="margin: 120px 0px;"><br /></div>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 
     <div class="bg-white container-fluid text-black"
-    style="border-top-right-radius: 85px; border-top-left-radius: 85px; position: relative;">
-        <div class="image-wrapper5" >
-            <img src="/layouts/assets.png"  width="250px" />
+        style="border-top-right-radius: 85px; border-top-left-radius: 85px; position: relative;">
+        <div class="image-wrapper5">
+            <img src="/layouts/assets.png" width="250px" />
         </div>
-        <div class="row" style="padding-top: 80px;" >
+        <div class="row" style="padding-top: 80px;">
             <div class="col" style="margin-left: 40px;">
                 <div class="d-flex align-items-center">
                     <i class="material-symbols-outlined"
@@ -70,7 +72,7 @@
                 <hr>
             </div>
         </div>
-        <div class="logos">
+        <!-- <div class="logos">
             <div class="logos-slide">
                 <img src="/layouts/m1.png" style="width: 275px; height: 290px;  " />
                 <img src="/layouts/m2.png" style="width: 275px; height: 290px;  " />
@@ -87,7 +89,29 @@
                 <img src="/layouts/m5.png" style="width: 275px; height: 290px;  " />
                 <img src="/layouts/m6.png" style="width: 275px; height: 290px;  " />
             </div>
-        </div>
+        </div> -->
+
+        <swiper :effect="'coverflow'" :grabCursor="true" :centeredSlides="true" :slidesPerView="'auto'"
+            :coverflowEffect="{
+            rotate: 15,
+            stretch: 0,
+            depth: 300,
+            modifier: 1,
+            slideShadows: false,
+        }" loop="true" :modules="modules" :spaceBetween="30" :autoplay="{
+            delay: 2500,
+            disableOnInteraction: false,
+        }" :pagination="{
+            clickable: true,
+        }" :navigation="false" class="mySwiper">
+            <swiper-slide> <img src="/layouts/m6.png"
+                    style="width: 275px; height: 290px;  " /></swiper-slide><swiper-slide> <img src="/layouts/m5.png"
+                    style="width: 275px; height: 290px;  " /></swiper-slide><swiper-slide> <img src="/layouts/m4.png"
+                    style="width: 275px; height: 290px;  " /></swiper-slide><swiper-slide> <img src="/layouts/m3.png"
+                    style="width: 275px; height: 290px;  " /></swiper-slide><swiper-slide> <img src="/layouts/m2.png"
+                    style="width: 275px; height: 290px;  " /></swiper-slide><swiper-slide> <img src="/layouts/m1.png"
+                    style="width: 275px; height: 290px;  " /></swiper-slide>
+        </swiper>
         <div class="row">
             <div class="col-12">
                 <hr>
@@ -95,7 +119,7 @@
         </div>
         <div class="row" style="margin-top: 0px;">
             <div class="col-12" style="justify-content: center; align-items: center; display: flex;">
-                <video  width="868px" height="642px" controls>
+                <video width="868px" height="642px" controls>
                     <source src="/layouts/mv.mp4" type="video/mp4">
                 </video>
             </div>
@@ -155,6 +179,20 @@
 <script setup>
 import MouseFollower from '../../components/MouseFollower.vue';
 import Navbar from '../../components/Navbar.vue';
+// Import Swiper Vue.js components
+import { Swiper, SwiperSlide } from 'swiper/vue';
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/effect-coverflow';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+
+// import required modules
+import { EffectCoverflow, Autoplay, Pagination, Navigation } from 'swiper/modules';
+
+// Export variables needed in the template
+const modules = [EffectCoverflow, Autoplay, Pagination, Navigation];
 
 </script>
 <style>
@@ -169,7 +207,27 @@ body {
     color: white;
 }
 
-@keyframes slide {
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: 100%;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, transparent, #0002, #0004);
+}
+
+/* @keyframes slide {
     from {
         transform: translateX(0);
     }
@@ -197,9 +255,9 @@ body {
 }
 
 .logos-slide img {
-    /* height: 50px; */
+    /* height: 50px; 
     margin: 0 40px;
-}
+} */
 
 
 .footer7 {
@@ -235,8 +293,10 @@ body {
 
 .image-wrapper5 {
     position: absolute;
-    top: -50px; /* Adjust based on how much you want it to overlap */
-    left: 50%; /* Centers the image horizontally */
+    top: -50px;
+    /* Adjust based on how much you want it to overlap */
+    left: 50%;
+    /* Centers the image horizontally */
     transform: translateX(-50%);
 }
 </style>
