@@ -101,12 +101,12 @@
         }" :pagination="{
             clickable: true,
         }" :navigation="false" class="mySwiper">
-         <swiper-slide>  <img src="/layouts/g01.jpg" style="width: 300px; height: 300px; " /> </swiper-slide>
-            <swiper-slide> <img src="/layouts/g02.jpg" style="width: 300px; height: 424px;  " /> </swiper-slide>
-            <swiper-slide>  <img src="/layouts/g03.png" style="width: 300px; height: 320px; " /> </swiper-slide>
-            <swiper-slide>  <img src="/layouts/g04.jpg" style="width: 300px; height: 424px;  " /> </swiper-slide>
-            <swiper-slide>  <img src="/layouts/g05.jpg" style="width: 300px; height: 424px; " /> </swiper-slide>
-            <swiper-slide>  <img src="/layouts/g06.jpg" style="width: 300px; height: 424px;  " /> </swiper-slide>
+         <swiper-slide>  <img src="/layouts/g01.jpg" style="width: 290px; height: 290px; " /> </swiper-slide>
+            <swiper-slide> <img src="/layouts/g02.jpg" style="width: 295px; height: 424px;  " /> </swiper-slide>
+            <swiper-slide>  <img src="/layouts/g04.jpg" style="width: 295px; height: 424px;  " /> </swiper-slide>
+            <swiper-slide>  <img src="/layouts/g03.png" style="width: 300px; height: 350px; " /> </swiper-slide>
+            <swiper-slide>  <img src="/layouts/g05.jpg" style="width: 295px; height: 424px; " /> </swiper-slide>
+            <swiper-slide>  <img src="/layouts/g06.jpg" style="width: 295px; height: 424px;  " /> </swiper-slide>
            
         </swiper>
 

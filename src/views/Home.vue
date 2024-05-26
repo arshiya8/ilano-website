@@ -109,13 +109,7 @@ div.container-fluid {
   z-index: 10;
 } */
 
-.ft {
-  background-color: #121212;
-  border: solid 1px #121212;
-  margin: 60px;
-  color: grey;
-  font-family: 'Times New Roman', Times, serif;
-}
+
 </style>
 
 <template>
@@ -225,13 +219,12 @@ div.container-fluid {
         </div>
       </div>
     </div>
-    <div class="ft" style="text-align: center;">
-      2023 Danielle Ilano. All Rights Reserved     
-    </div>
+    <Foot/>
   </div>
 </template>
 
 <script setup>
 import MouseFollower from '../components/MouseFollower.vue';
 import Navbar from '../components/Navbar.vue';
+import Foot from '../components/Footnote.vue';
 </script>

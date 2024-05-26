@@ -2,7 +2,7 @@
     <MouseFollower />
     <Navbar />
 
-    <div class="grid" style="margin-bottom: 20px;">
+    <div class="grid" style="margin-bottom: 50px;">
         <div class="col" style="margin-top: 30px;  padding-left: 140px;">
             <div class="container" style=" font-family: 'Mohave', sans-serif; font-size: 4rem;">
                 <div class="lh-sm">
@@ -45,12 +45,7 @@
             <img src="/layouts/contact.gif" style="width: 480px; height: 265px; border-radius: 41px; " />
         </div>
     </div>
-
-    <div class="footer4">
-        <div class="txt4">
-            2023 Danielle Ilano. All Rights Reserved
-        </div>
-    </div>
+    <Foot/>
 </template>
 
 <style>
@@ -64,25 +59,10 @@ body {
 }
 
 
-.footer4 {
-    position: relative;
-    border: none;
-    background-color: #3533333c;
-    width: 100%;
-    height: 120px;
-}
-
-.txt4 {
-    position: absolute;
-    text-align: center;
-    left: 40%;
-    bottom: 20px;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: smaller;
-}
 </style>
 
 <script setup>
 import Navbar from '../components/Navbar.vue';
 import MouseFollower from '../components/MouseFollower.vue';
+import Foot from '../components/Footnote.vue';
 </script>

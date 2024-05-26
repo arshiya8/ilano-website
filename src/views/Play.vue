@@ -11,7 +11,7 @@
   <link href="https://db.onlinewebfonts.com/c/0a3b16ce4d5d730e4db365078351415b?family=Dark+Crow+Italic+PERSONAL+USE"
     rel="stylesheet">
   <div class="container-fluid">
-    <div class="grid">
+    <div class="grid" style="margin-bottom: 150px; margin-top: 100px;">
       <div class="card-container2">
         <div class="flex align-items-center justify-content-center pr-3 sm:col-12 md:col-4 lg:col-4">
           <div class="flip-card2">
@@ -60,17 +60,14 @@
         </div>
       </div>
     </div>
+    <Foot/>
   </div>
 
-  <div class="footer2">
-    <div class="txt2">
-      2023 Danielle Ilano. All Rights Reserved
-    </div>
-  </div>
 </template>
 <script setup>
 import Navbar from '../components/Navbar.vue';
 import MouseFollower from '../components/MouseFollower.vue';
+import Foot from '../components/Footnote.vue';
 </script>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Mohave:wght@700&display=swap');
@@ -167,21 +164,4 @@ body {
   right: 40px;
 }
 
-.footer2 {
-  position: relative;
-  border: none;
-  background-color: #3533333c;
-  width: 100%;
-  height: 80px;
-  margin-top: 150px;
-}
-
-.txt2 {
-  position: absolute;
-  text-align: center;
-  left: 40%;
-  bottom: 20px;
-  font-family: 'Times New Roman', Times, serif;
-  font-size: smaller;
-}
 </style>

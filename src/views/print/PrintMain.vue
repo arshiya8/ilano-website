@@ -113,13 +113,6 @@ div.container-fluid {
     z-index: 10;
 }
 
-.ft {
-    background-color: #121212;
-    border: solid 1px #121212;
-    margin: 60px;
-    color: grey;
-    font-family: 'Times New Roman', Times, serif;
-}
 </style>
 
 <template>
@@ -154,14 +147,6 @@ div.container-fluid {
                                         TV show
                                     </div>
                                 </div>
-                                <!-- <div class="flip-cardp-back">
-                                    <div class="ttp lh-1" style="font-size: 2.0rem;color: rgb(211, 211, 211)">
-                                        The Artful Dodger
-                                    </div>
-                                    <div class="btp" style="font-size: 1.3rem;">
-                                        TV show
-                                    </div>
-                                </div> -->
                             </div>
                         </div>
                     </div>
@@ -178,14 +163,6 @@ div.container-fluid {
                                         Film
                                     </div>
                                 </div>
-                                <!-- <div class="flip-cardp-back">
-                                    <div class="ttp lh-1" style="font-size: 1.8rem;color: rgb(211, 211, 211)">
-                                        The Ballad of Songbirds And Snakes
-                                    </div>
-                                    <div class="btp" style="font-size: 1.3rem;">
-                                        Film
-                                    </div>
-                                </div> -->
                             </div>
                         </div>
                     </div>
@@ -202,14 +179,6 @@ div.container-fluid {
                                         TV show
                                     </div>
                                 </div>
-                                <!-- <div class="flip-cardp-back">
-                                    <div class="ttp lh-1" style="font-size: 2.2rem;color: rgb(211, 211, 211)">
-                                        Only Murders in the Building
-                                    </div>
-                                    <div class="btp" style="font-size: 1.3rem;">
-                                        TV show
-                                    </div>
-                                </div> -->
                             </div>
                         </div>
                     </div>
@@ -226,14 +195,6 @@ div.container-fluid {
                                         Spotify
                                     </div>
                                 </div>
-                                <!-- <div class="flip-cardp-back">
-                                    <div class="ttp lh-1" style="font-size: 2.2rem;color: rgb(211, 211, 211)">
-                                        Generational Debate
-                                    </div>
-                                    <div class="btp" style="font-size: 1.3rem;c">
-                                        Spotify
-                                    </div>
-                                </div> -->
                             </div>
                         </div>
                     </div>
@@ -282,10 +243,7 @@ div.container-fluid {
             <p class="text-center" style="margin-top: 20px; margin-bottom: 0px; font-family:Georgia, 'Times New Roman', Times, serif">Only Murders in the Building</p>
             
         </Dialog>
-        <!-- </div> -->
-        <div class="ft" style="text-align: center;">
-            2023 Danielle Ilano. All Rights Reserved
-        </div>
+       <Foot/>
     </div>
 
 
@@ -296,6 +254,7 @@ div.container-fluid {
 <script setup>
 import MouseFollower from '../../components/MouseFollower.vue';
 import Navbar from '../../components/Navbar.vue';
+import Foot from '../../components/Footnote.vue';
 import { ref } from "vue";
 
 

@@ -4,7 +4,7 @@
 
     <div class="container-fluid text-center lh-sm" style="margin-top: 200px; margin-bottom: 250px; ">
         <div style="font-family: 'Montserrat', sans-serif; font-size: 3rem;">
-            Kraft Mac and Cheese 
+            Kraft Mac and Cheese
         </div>
         <div style="font-family: 'Mohave', sans-serif; font-size: 6rem;">
             Operation: Save Rex
@@ -23,10 +23,10 @@
                 01 | BRIEF
             </div>
             <div style="font-family: 'Montserrat', sans-serif; font-weight: 600; font-size: 2.5rem;">
-                Create a campaign that Is culturally relevant and <br> captures the attention of older Gen Z  
-                and younger <br> millennials to choose   Kraft Mac & Cheese as their <br> first choice for food comfort.
-                 
-               
+                Create a campaign that Is culturally relevant and <br> captures the attention of older Gen Z
+                and younger <br> millennials to choose Kraft Mac & Cheese as their <br> first choice for food comfort.
+
+
             </div>
         </div>
     </div>
@@ -37,9 +37,11 @@
                 02 | DESCRIPTION
             </div>
             <div style="font-family: 'Montserrat', sans-serif; font-weight: 600; font-size: 2.2rem;">
-                We brought back the brand’s beloved mascot,<br>  Cheesasaurus Rex, and encouraged fans to send in their<br> personal 
-                twisted recipes to help evolve him into the <br>modern day mascot befitting the brand’s values<br> instead of the 
-                dinosaur Boomer he used to be. 
+                We brought back the brand’s beloved mascot,<br> Cheesasaurus Rex, and encouraged fans to send in
+                their<br> personal
+                twisted recipes to help evolve him into the <br>modern day mascot befitting the brand’s values<br>
+                instead of the
+                dinosaur Boomer he used to be.
             </div>
         </div>
     </div>
@@ -50,11 +52,11 @@
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 
     <div class="bg-white container-fluid text-black"
-    style="border-top-right-radius: 85px; border-top-left-radius: 85px;position: relative;">
-        <div class="image-wrapper3" >
-            <img src="/layouts/assets.png"  width="250px" />
+        style="border-top-right-radius: 85px; border-top-left-radius: 85px;position: relative;">
+        <div class="image-wrapper3">
+            <img src="/layouts/assets.png" width="250px" />
         </div>
-        <div class="row" style="padding-top: 80px;" >
+        <div class="row" style="padding-top: 80px;">
             <div class="col" style="margin-left: 50px;">
                 <div class="d-flex align-items-center">
                     <i class="material-symbols-outlined"
@@ -108,16 +110,20 @@
         }" :pagination="{
             clickable: true,
         }" :navigation="false" class="mySwiper">
-            <swiper-slide> <img src="/layouts/r4.png" style="width: 275px; height: 340px;  " /> </swiper-slide>
-            <swiper-slide> <img src="/layouts/rb1.png" style="width: 290px; height: 432px;  " /> </swiper-slide>
-            <swiper-slide> <img src="/layouts/r2.png" style="width: 345px; height: 230px; " /></swiper-slide>
-            <swiper-slide> <img src="/layouts/r7.png" style="width: 385px; height: 260px;" /> </swiper-slide>
-            <swiper-slide> <img src="/layouts/rb2.png" style="width: 290px; height: 432px;  " />  </swiper-slide>
-            <swiper-slide>  <img src="/layouts/r5.png" style="width: 275px; height: 340px;" /> </swiper-slide>
+            
             <swiper-slide> <img src="/layouts/r1.png" style="width: 345px; height: 230px; " /></swiper-slide>
-            <swiper-slide>  <img src="/layouts/r6.png" style="width: 385px; height: 260px;" /> </swiper-slide>
-            <swiper-slide>  <img src="/layouts/rb3.png" style="width: 275px; height: 340px;" /> </swiper-slide>
-            <swiper-slide>  <img src="/layouts/r3.png" style="width: 345px; height: 230px;" /> </swiper-slide>
+            <swiper-slide> <img src="/layouts/r2.png" style="width: 345px; height: 230px; " /></swiper-slide>
+            <swiper-slide> <img src="/layouts/r3.png" style="width: 345px; height: 230px;" /> </swiper-slide>
+            <swiper-slide> <img src="/layouts/r4.png" style="width: 275px; height: 340px;  " /> </swiper-slide>
+            <swiper-slide> <img src="/layouts/r5.png" style="width: 275px; height: 340px;" /> </swiper-slide>
+            <swiper-slide> <img src="/layouts/rcb.png" style="width: 385px; height: 260px;  " /> </swiper-slide>
+            <swiper-slide> <img src="/layouts/rb2.png" style="width: 290px; height: 432px;  " /> </swiper-slide>   
+            <swiper-slide> <img src="/layouts/rb1.png" style="width: 290px; height: 432px;  " /> </swiper-slide>      
+            <swiper-slide> <img src="/layouts/rb3.png" style="width: 275px; height: 340px;" /> </swiper-slide>
+            <swiper-slide> <img src="/layouts/r6.png" style="width: 385px; height: 260px;" /> </swiper-slide>
+            <swiper-slide> <img src="/layouts/r7.png" style="width: 385px; height: 260px;" /> </swiper-slide>
+            <swiper-slide> <img src="/layouts/r8.png" style="width: 385px; height: 260px;" /> </swiper-slide>
+
         </swiper>
 
         <div class="row">
@@ -137,9 +143,9 @@
                 <img src="/layouts/rcb.png" style="width: 868px; height: 642px;" />
             </div>
         </div>
-       
-        
-        
+
+
+
         <div class="container" style="margin: 20px 70px;">
             <div class="text-left" style="font-family: 'Mohave', sans-serif; font-size: 1.5rem; font-weight: lighter;">
                 CREDITS
@@ -307,8 +313,10 @@ body {
 
 .image-wrapper3 {
     position: absolute;
-    top: -50px; /* Adjust based on how much you want it to overlap */
-    left: 50%; /* Centers the image horizontally */
+    top: -50px;
+    /* Adjust based on how much you want it to overlap */
+    left: 50%;
+    /* Centers the image horizontally */
     transform: translateX(-50%);
 }
 </style>

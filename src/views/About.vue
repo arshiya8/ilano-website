@@ -17,8 +17,6 @@ font-style: normal; font-size: 2rem; text-align: start;">
             Said by nobody. </div>
         </div>
       </div>
-
-
       <div style="font-family: 'Montserrat', sans-serif;">
         <strong>Danielle (Dani, David, Ilano) is an Advertising creative <br> who specialises in copywriting. </strong>
         Sensationally quiet, <br> she puts her voice into her work and hopes for the best. <br> Kidding, <span
@@ -30,15 +28,10 @@ font-style: normal; font-size: 2rem; text-align: start;">
         field of illustrations, <br>
         UI/UX, video editing and creative writing.
       </div>
-
     </div>
   </div>
+  <Foot/>
 
-  <div class="footer3">
-    <div class="txt3">
-      2023 Danielle Ilano. All Rights Reserved
-    </div>
-  </div>
 </template>
 
 <style>
@@ -56,25 +49,11 @@ body {
   max-height: 100%;
 }
 
-.footer3 {
-  position: relative;
-  border: none;
-  background-color: #3533333c;
-  width: 100%;
-  height: 80px;
-}
 
-.txt3 {
-  position: absolute;
-  text-align: center;
-  left: 40%;
-  bottom: 20px;
-  font-family: 'Times New Roman', Times, serif;
-  font-size: smaller;
-}
 </style>
 
 <script setup>
 import Navbar from '../components/Navbar.vue';
 import MouseFollower from '../components/MouseFollower.vue';
+import Foot from '../components/Footnote.vue';
 </script>

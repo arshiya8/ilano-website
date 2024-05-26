@@ -62,20 +62,20 @@ div.container-fluid {
 }
 
 .flip-cardm-front::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: black;
-  opacity: 0;
-  transition: opacity 0.5s;
-  border-radius: 15px;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0;
+    transition: opacity 0.5s;
+    border-radius: 15px;
 }
 
 .flip-cardm:hover .flip-cardm-front::after {
-  opacity: 0.5;
+    opacity: 0.5;
 }
 
 /* div.card-containerm.mt-5{
@@ -99,23 +99,23 @@ div.container-fluid {
 
 
 .hover-button {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-  font-family: 'Courier New', Courier, monospace;
-  padding: 10px;
-  font-weight: bolder;
-  font-size: 0.6rem;
-  text-align: center;
-  opacity: 0;
-  transition: opacity 0.5s;
-  z-index: 10;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+    font-weight: bolder;
+    font-size: 0.6rem;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.5s;
+    z-index: 10;
 }
 
 .flip-cardm:hover .hover-button {
-  opacity: 1;
+    opacity: 1;
 }
 
 /* .bt {
@@ -132,13 +132,6 @@ div.container-fluid {
     z-index: 10;
 } */
 
-.ft {
-  background-color: #121212;
-  border: solid 1px #121212;
-  margin: 60px;
-  color: grey;
-  font-family: 'Times New Roman', Times, serif;
-}
 </style>
 
 <template>
@@ -169,7 +162,9 @@ div.container-fluid {
                                         Gymface
                                     </div>
                                     <div class="hover-button" style="font-family: 'Anton', sans-serif;">
-                                        <router-link :to="{name: 'gym'}"><button type="button" class="btn btn-light rounded-pill" style="font-size: 1.9rem; padding: 0 30px;">DISCOVER</button></router-link>
+                                        <router-link :to="{ name: 'gym' }"><button type="button"
+                                                class="btn btn-light rounded-pill"
+                                                style="font-size: 1.9rem; padding: 0 30px;">DISCOVER</button></router-link>
                                     </div>
                                 </div>
                             </div>
@@ -185,7 +180,9 @@ div.container-fluid {
                                         eBay Your Privilege
                                     </div>
                                     <div class="hover-button" style="font-family: 'Anton', sans-serif;">
-                                        <router-link :to="{name: 'eBay'}"><button type="button" class="btn btn-light rounded-pill" style="font-size: 1.9rem; padding: 0 30px;">DISCOVER</button></router-link>
+                                        <router-link :to="{ name: 'eBay' }"><button type="button"
+                                                class="btn btn-light rounded-pill"
+                                                style="font-size: 1.9rem; padding: 0 30px;">DISCOVER</button></router-link>
                                     </div>
                                 </div>
                             </div>
@@ -197,11 +194,13 @@ div.container-fluid {
                                 <div class="flip-cardm-front">
                                     <img src="/layouts/dc.jpg"
                                         style="width: 350px; height: 358px; border-radius: 15px;" />
-                                        <div class="tt" style="font-size: 2.2rem;">
+                                    <div class="tt" style="font-size: 2.2rem;">
                                         Operation: Save Rex
                                     </div>
                                     <div class="hover-button" style="font-family: 'Anton', sans-serif;">
-                                        <router-link :to="{name: 'rex'}"><button type="button" class="btn btn-light rounded-pill" style="font-size: 1.9rem; padding: 0 30px;">DISCOVER</button></router-link>
+                                        <router-link :to="{ name: 'rex' }"><button type="button"
+                                                class="btn btn-light rounded-pill"
+                                                style="font-size: 1.9rem; padding: 0 30px;">DISCOVER</button></router-link>
                                     </div>
                                 </div>
                             </div>
@@ -213,11 +212,13 @@ div.container-fluid {
                                 <div class="flip-cardm-front">
                                     <img src="/layouts/mc.jpg"
                                         style="width: 350px; height: 358px; border-radius: 15px;" />
-                                        <div class="tt" style="font-size: 2.2rem;">
+                                    <div class="tt" style="font-size: 2.2rem;">
                                         Heineken Matched
                                     </div>
                                     <div class="hover-button" style="font-family: 'Anton', sans-serif;">
-                                        <router-link :to="{name: 'heineken'}"><button type="button" class="btn btn-light rounded-pill" style="font-size: 1.9rem; padding: 0 30px;">DISCOVER</button></router-link>
+                                        <router-link :to="{ name: 'heineken' }"><button type="button"
+                                                class="btn btn-light rounded-pill"
+                                                style="font-size: 1.9rem; padding: 0 30px;">DISCOVER</button></router-link>
                                     </div>
                                 </div>
                             </div>
@@ -229,11 +230,13 @@ div.container-fluid {
                                 <div class="flip-cardm-front">
                                     <img src="/layouts/zc.jpg"
                                         style="width: 350px; height: 358px; border-radius: 15px;" />
-                                        <div class="tt" style="font-size: 2.2rem;">
+                                    <div class="tt" style="font-size: 2.2rem;">
                                         The Last Escape
                                     </div>
                                     <div class="hover-button" style="font-family: 'Anton', sans-serif;">
-                                        <router-link :to="{name: 'escape'}"><button type="button" class="btn btn-light rounded-pill" style="font-size: 1.9rem; padding: 0 30px;">DISCOVER</button></router-link>
+                                        <router-link :to="{ name: 'escape' }"><button type="button"
+                                                class="btn btn-light rounded-pill"
+                                                style="font-size: 1.9rem; padding: 0 30px;">DISCOVER</button></router-link>
                                     </div>
                                 </div>
                             </div>
@@ -245,11 +248,13 @@ div.container-fluid {
                                 <div class="flip-cardm-front">
                                     <img src="/layouts/zc.jpg"
                                         style="width: 350px; height: 358px; border-radius: 15px;" />
-                                        <div class="tt" style="font-size: 2.2rem;">
+                                    <div class="tt" style="font-size: 2.2rem;">
                                         The Last Escape
                                     </div>
                                     <div class="hover-button" style="font-family: 'Anton', sans-serif;">
-                                        <router-link :to="{name: 'music'}"><button type="button" class="btn btn-light rounded-pill" style="font-size: 1.9rem; padding: 0 30px;">DISCOVER</button></router-link>
+                                        <router-link :to="{ name: 'music' }"><button type="button"
+                                                class="btn btn-light rounded-pill"
+                                                style="font-size: 1.9rem; padding: 0 30px;">DISCOVER</button></router-link>
                                     </div>
                                 </div>
                             </div>
@@ -258,13 +263,10 @@ div.container-fluid {
                 </div>
             </div>
         </div>
-        <!-- </div> -->
-        <div class="ft" style="text-align: center;">
-      2023 Danielle Ilano. All Rights Reserved     
-    </div>
+       <Foot/>
     </div>
 
-  
+
 
 
 </template>
@@ -272,6 +274,7 @@ div.container-fluid {
 <script setup>
 import MouseFollower from '../../components/MouseFollower.vue';
 import Navbar from '../../components/Navbar.vue';
+import Foot from '../../components/Footnote.vue';
 
 
 </script>
