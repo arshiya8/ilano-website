@@ -50,12 +50,11 @@
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 
-    <div class="bg-white container-fluid text-black"
-        style="border-top-right-radius: 85px; border-top-left-radius: 85px;">
-        <div style="font-family: 'Mohave', sans-serif; font-size: 5rem; padding-top: 50px; text-align: center;">
-            ASSETS
+    <div class="bg-white container-fluid text-black" style="border-top-right-radius: 85px; border-top-left-radius: 85px; position: relative;">
+        <div class="image-wrapper" >
+            <img src="/layouts/assets.png"  width="250px" />
         </div>
-        <div class="row" style="margin-top: 40px;">
+        <div class="row" style="padding-top: 80px;" >
             <div class="col" style="margin-left: 50px;">
                 <div class="d-flex align-items-center">
                     <i class="material-symbols-outlined"
@@ -232,5 +231,12 @@ body {
     position: absolute;
     right: 40px;
     top: 30px;
+}
+
+.image-wrapper {
+    position: absolute;
+    top: -50px; /* Adjust based on how much you want it to overlap */
+    left: 50%; /* Centers the image horizontally */
+    transform: translateX(-50%);
 }
 </style>

@@ -3,7 +3,6 @@
 @import url('https://use.typekit.net/mvw8cpm.css');
 @import url('https://db.onlinewebfonts.com/c/0a3b16ce4d5d730e4db365078351415b?family=Dark+Crow+Italic+PERSONAL+USE');
 
-
 body {
   background-color: #121212;
   color: white;
@@ -17,9 +16,7 @@ div.container-fluid {
 .card-container {
   display: flex;
   flex-wrap: wrap;
-  /* Allow cards to wrap to the next line */
   justify-content: space-between;
-  /* Distribute cards evenly within each row */
   width: 90%;
   margin: 0 auto;
 }
@@ -30,11 +27,9 @@ div.container-fluid {
   height: 358px;
   border: none;
   perspective: 1000px;
-  /* Remove this if you don't want the 3D effect */
   border-radius: 15px;
 }
 
-/* This container is needed to position the front and back side */
 .flip-card-inner {
   position: relative;
   width: 100%;
@@ -44,14 +39,8 @@ div.container-fluid {
   transform-style: preserve-3d;
 }
 
-Do an horizontal flip when you move the mouse over the flip box container
-.flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
-}
 
-/* Position the front and back side */
-.flip-card-front
-/* .flip-card-back  */ {
+.flip-card-front {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -60,25 +49,52 @@ Do an horizontal flip when you move the mouse over the flip box container
   border-radius: 15px;
 }
 
-/* Style the front side (fallback if image is missing) */
-.flip-card-front {
-  color: black;
-  /* border: 1px solid grey; */
+
+.flip-card-front img {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  transition: opacity 0.5s;
 }
 
-/* Style the back side */
-/* .flip-card-back {
-  background-color: #ffffff;
-  border: 1px solid grey;
-  color: black;
-  transform: rotateY(180deg);
-  display: flex;
-  justify-content: center;
-  font-size: 14px;
-  padding: 10px;
-} */
+.flip-card-front::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0;
+  transition: opacity 0.5s;
+  border-radius: 15px;
+}
 
-.tth {
+.flip-card:hover .flip-card-front::after {
+  opacity: 0.5;
+}
+
+.hover-text {
+  position: absolute;
+  top: 15%;
+  left: 21%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 10px;
+  font-weight: bolder;
+  font-size: 0.6rem;
+  text-align: left;
+  opacity: 0;
+  transition: opacity 0.5s;
+  z-index: 10;
+}
+
+.flip-card:hover .hover-text {
+  opacity: 1;
+}
+
+/* .tth {
   position: absolute;
   top: 12%;
   left: 21%;
@@ -91,7 +107,7 @@ Do an horizontal flip when you move the mouse over the flip box container
   font-size: 0.6rem;
   text-align: left;
   z-index: 10;
-}
+} */
 
 .ft {
   background-color: #121212;
@@ -126,7 +142,6 @@ Do an horizontal flip when you move the mouse over the flip box container
         style="font-family: 'Mohave', sans-serif; font-size: 5rem; padding-top: 90px; padding-left: 70px; padding-right:50px;">
         WORKS </div>
 
-      <!-- <div class="container-fluid mx-3"> -->
       <div class="grid">
         <div class="card-container mt-5">
           <div class="flex align-items-center justify-content-center pb-5 sm:col-12 md:col-6 lg:col-3">
@@ -136,21 +151,9 @@ Do an horizontal flip when you move the mouse over the flip box container
                   <div class="flip-card-inner">
                     <router-link :to="{ name: 'adMain' }">
                     <div class="flip-card-front">
-                      <img src="/layouts/a1.jpg" style="width: 300px; height: 358px; border-radius: 15px;" />
-                      <div class="tth lh-1">
-                        GYMSHARK <br />
-                        EBAY <br />
-                        WATTPAD <br />
-                        KRAFT MAC & CHEESE <br />
-                        NETFLIX <br />
-                        SKY
-                      </div>
+                      <img src="/layouts/a1.jpg" />
+                      <div class="hover-text">GYMSHARK <br /> EBAY <br /> WATTPAD <br /> KRAFT MAC & CHEESE <br /> NETFLIX <br /> SKY</div>
                     </div></router-link>
-                    <!-- <div class="flip-card-back">
-                      <div class="justify-content-center">
-                        <router-link :to="{ name: 'adMain' }"><Button label="See More" rounded></Button></router-link>
-                      </div>
-                    </div> -->
                   </div>
                 </div>
               </div>
@@ -168,20 +171,9 @@ Do an horizontal flip when you move the mouse over the flip box container
                   <div class="flip-card-inner">
                     <router-link :to="{ name: 'printMain' }">
                     <div class="flip-card-front">
-                      <img src="/layouts/a2.jpg" style="width: 300px; height: 358px; border-radius: 15px;" />
-                      <div class="tth lh-1" style="left: 33%; top: 10%;">
-                        SPOTIFY <br />
-                        THE ARTFUL DODGER <br />
-                        ONLY MURDERS IN THE BUILDING <br />
-                        THE BALLADS OF SONGBIRDS AND SNAKES
-                      </div>
+                      <img src="/layouts/a2.jpg" />
+                      <div class="hover-text" style="left: 33%; top: 13%;">SPOTIFY <br /> THE ARTFUL DODGER <br /> ONLY MURDERS IN THE BUILDING <br /> THE BALLADS OF SONGBIRDS AND SNAKES</div>
                     </div></router-link>
-                    <!-- <div class="flip-card-back">
-                      <div class="justify-content-center">
-                        <router-link :to="{ name: 'printMain' }"><Button label="See More"
-                            rounded></Button></router-link>
-                      </div>
-                    </div> -->
                   </div>
                 </div>
               </div>
@@ -198,13 +190,9 @@ Do an horizontal flip when you move the mouse over the flip box container
                 <div class="flip-card">
                   <div class="flip-card-inner">
                     <div class="flip-card-front">
-                      <img src="/layouts/lock.png" style="width: 300px; height: 358px; border-radius: 15px;" />
+                      <img src="/layouts/lock.png" />
+                      <div class="hover-text" style="left: 50%; top: 13%;">Coming Soon</div>
                     </div>
-                    <!-- <div class="flip-card-back">
-                      <div class="justify-content-center">
-                        <router-link :to="{ name: 'home' }"><Button label="See More" rounded></Button></router-link>
-                      </div>
-                    </div> -->
                   </div>
                 </div>
               </div>
@@ -221,13 +209,9 @@ Do an horizontal flip when you move the mouse over the flip box container
                 <div class="flip-card">
                   <div class="flip-card-inner">
                     <div class="flip-card-front">
-                      <img src="/layouts/lock.png" style="width: 300px; height: 358px; border-radius: 15px;" />
+                      <img src="/layouts/lock.png" />
+                      <div class="hover-text" style="left: 50%; top: 13%;">Coming Soon</div>
                     </div>
-                    <!-- <div class="flip-card-back">
-                      <div class="justify-content-center">
-                        <router-link :to="{ name: 'home' }"><Button label="See More" rounded></Button></router-link>
-                      </div>
-                    </div> -->
                   </div>
                 </div>
               </div>
@@ -241,20 +225,13 @@ Do an horizontal flip when you move the mouse over the flip box container
         </div>
       </div>
     </div>
-    <!-- </div> -->
     <div class="ft" style="text-align: center;">
       2023 Danielle Ilano. All Rights Reserved     
     </div>
   </div>
-
-
-
-
 </template>
 
 <script setup>
 import MouseFollower from '../components/MouseFollower.vue';
 import Navbar from '../components/Navbar.vue';
-
-
 </script>

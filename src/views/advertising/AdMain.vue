@@ -44,14 +44,9 @@ div.container-fluid {
     transform-style: preserve-3d;
 }
 
-/* Do an horizontal flip when you move the mouse over the flip box container */
-.flip-cardm:hover .flip-cardm-inner {
-    transform: rotateY(180deg);
-}
 
 /* Position the front and back side */
-.flip-cardm-front,
-.flip-cardm-back {
+.flip-cardm-front {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -66,17 +61,21 @@ div.container-fluid {
     /* border: 1px solid grey; */
 }
 
+.flip-cardm-front::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0;
+  transition: opacity 0.5s;
+  border-radius: 15px;
+}
 
-/* Style the back side */
-.flip-cardm-back {
-    background-color: #ffffff;
-    /* border: 1px solid grey; */
-    color: black;
-    transform: rotateY(180deg);
-    display: flex;
-    justify-content: center;
-    font-size: 14px;
-    padding: 10px;
+.flip-cardm:hover .flip-cardm-front::after {
+  opacity: 0.5;
 }
 
 /* div.card-containerm.mt-5{
@@ -98,7 +97,28 @@ div.container-fluid {
     z-index: 10;
 }
 
-.bt {
+
+.hover-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 10px;
+  font-weight: bolder;
+  font-size: 0.6rem;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.5s;
+  z-index: 10;
+}
+
+.flip-cardm:hover .hover-button {
+  opacity: 1;
+}
+
+/* .bt {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -110,7 +130,7 @@ div.container-fluid {
     font-style: normal;
     text-align: center;
     z-index: 10;
-}
+} */
 
 .ft {
   background-color: #121212;
@@ -148,12 +168,8 @@ div.container-fluid {
                                     <div class="tt">
                                         Gymface
                                     </div>
-                                </div>
-                                <div class="flip-cardm-back">
-                                    <img src="/layouts/gn.jpg"
-                                        style="width: 350px; height: 358px; border-radius: 15px;" />
-                                    <div class="bt">
-                                       <router-link :to="{name:'gym'}" ><button type="button" class="btn btn-light rounded-pill" style="font-size: 1.9rem; padding: 0 30px;">DISCOVER</button></router-link>
+                                    <div class="hover-button" style="font-family: 'Anton', sans-serif;">
+                                        <router-link :to="{name: 'gym'}"><button type="button" class="btn btn-light rounded-pill" style="font-size: 1.9rem; padding: 0 30px;">DISCOVER</button></router-link>
                                     </div>
                                 </div>
                             </div>
@@ -168,18 +184,14 @@ div.container-fluid {
                                     <div class="tt" style="font-size: 2.2rem;">
                                         eBay Your Privilege
                                     </div>
-                                </div>
-                                <div class="flip-cardm-back">
-                                    <img src="/layouts/en.jpg"
-                                        style="width: 350px; height: 358px; border-radius: 15px;" />
-                                        <div class="bt">
+                                    <div class="hover-button" style="font-family: 'Anton', sans-serif;">
                                         <router-link :to="{name: 'eBay'}"><button type="button" class="btn btn-light rounded-pill" style="font-size: 1.9rem; padding: 0 30px;">DISCOVER</button></router-link>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="flex align-items-center justify-content-center pb-5 sm:col-12 lg:col-4">
+                    <div class="flex align-items-center justify-content-center pb-5 sm:col-12 md:col-6 lg:col-4">
                         <div class="flip-cardm">
                             <div class="flip-cardm-inner">
                                 <div class="flip-cardm-front">
@@ -188,18 +200,14 @@ div.container-fluid {
                                         <div class="tt" style="font-size: 2.2rem;">
                                         Operation: Save Rex
                                     </div>
-                                </div>
-                                <div class="flip-cardm-back">
-                                    <img src="/layouts/dn.jpg"
-                                        style="width: 350px; height: 358px; border-radius: 15px;" />
-                                        <div class="bt">
-                                            <router-link :to="{name: 'rex'}"><button type="button" class="btn btn-light rounded-pill" style="font-size: 1.9rem; padding: 0 30px;">DISCOVER</button></router-link>
+                                    <div class="hover-button" style="font-family: 'Anton', sans-serif;">
+                                        <router-link :to="{name: 'rex'}"><button type="button" class="btn btn-light rounded-pill" style="font-size: 1.9rem; padding: 0 30px;">DISCOVER</button></router-link>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="flex align-items-center justify-content-center pb-5 sm:col-12 lg:col-6">
+                    <div class="flex align-items-center justify-content-center pb-5 sm:col-12 md:col-6 lg:col-4">
                         <div class="flip-cardm">
                             <div class="flip-cardm-inner">
                                 <div class="flip-cardm-front">
@@ -208,18 +216,14 @@ div.container-fluid {
                                         <div class="tt" style="font-size: 2.2rem;">
                                         Heineken Matched
                                     </div>
-                                </div>
-                                <div class="flip-cardm-back">
-                                    <img src="/layouts/hn.jpg"
-                                        style="width: 350px; height: 358px; border-radius: 15px;" />
-                                        <div class="bt">
-                                            <router-link :to="{name: 'heineken'}"><button type="button" class="btn btn-light rounded-pill" style="font-size: 1.9rem; padding: 0 30px;">DISCOVER</button></router-link>
+                                    <div class="hover-button" style="font-family: 'Anton', sans-serif;">
+                                        <router-link :to="{name: 'heineken'}"><button type="button" class="btn btn-light rounded-pill" style="font-size: 1.9rem; padding: 0 30px;">DISCOVER</button></router-link>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="flex align-items-center justify-content-center pb-5 sm:col-12 lg:col-6">
+                    <div class="flex align-items-center justify-content-center pb-5 sm:col-12 md:col-6 lg:col-4">
                         <div class="flip-cardm">
                             <div class="flip-cardm-inner">
                                 <div class="flip-cardm-front">
@@ -228,12 +232,24 @@ div.container-fluid {
                                         <div class="tt" style="font-size: 2.2rem;">
                                         The Last Escape
                                     </div>
+                                    <div class="hover-button" style="font-family: 'Anton', sans-serif;">
+                                        <router-link :to="{name: 'escape'}"><button type="button" class="btn btn-light rounded-pill" style="font-size: 1.9rem; padding: 0 30px;">DISCOVER</button></router-link>
+                                    </div>
                                 </div>
-                                <div class="flip-cardm-back">
-                                    <img src="/layouts/zn.jpg"
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex align-items-center justify-content-center pb-5 sm:col-12 md:col-6 lg:col-4">
+                        <div class="flip-cardm">
+                            <div class="flip-cardm-inner">
+                                <div class="flip-cardm-front">
+                                    <img src="/layouts/zc.jpg"
                                         style="width: 350px; height: 358px; border-radius: 15px;" />
-                                        <div class="bt">
-                                            <router-link :to="{name: 'escape'}"><button type="button" class="btn btn-light rounded-pill" style="font-size: 1.9rem; padding: 0 30px;">DISCOVER</button></router-link>
+                                        <div class="tt" style="font-size: 2.2rem;">
+                                        The Last Escape
+                                    </div>
+                                    <div class="hover-button" style="font-family: 'Anton', sans-serif;">
+                                        <router-link :to="{name: 'eBay'}"><button type="button" class="btn btn-light rounded-pill" style="font-size: 1.9rem; padding: 0 30px;">DISCOVER</button></router-link>
                                     </div>
                                 </div>
                             </div>
@@ -248,7 +264,7 @@ div.container-fluid {
     </div>
     </div>
 
-
+  
 
 
 </template>
